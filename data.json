@@ -1,0 +1,34 @@
+{
+    "hightech": [
+        {
+            "id": 1,
+            "name": "",
+            "price": 160,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/tablette/",
+            "img_2": "assets/img/tablette/",
+            "img_3": "assets/img/tablette/",
+            "available": true,
+            "sizes": ""
+        }
+    ],
+    "category": [
+        {
+            "id": 0,
+            "name": "Appareil photo"
+        },
+        {
+            "id": 1,
+            "name": "Casque audio"
+        },
+        {
+            "id": 2,
+            "name": "Téléphone"
+        }
+    ]
+    
+}
