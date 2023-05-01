@@ -160,6 +160,25 @@
             "available": true,
             "sizes": "",
             "categories": [2]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+            "id": 10,
+            "name": "Casque Beats",
+            "price": 240,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/beats_noir.jpg",
+            "img_2": "assets/img/casques/beats_blanc.jpg",
+            "img_3": "assets/img/casques/beats_bleu.jpg",
+            "available": true,
+            "sizes": "",
+            "categories": [3]
+>>>>>>> Stashed changes
         }
 
     ],
@@ -171,7 +190,11 @@
      "categories": [
         {   
             "id":1,
+<<<<<<< Updated upstream
             "nom":"Smartphones et tablettes"
+=======
+            "nom":"Smartphones"
+>>>>>>> Stashed changes
         },
         {
             "id": 2,
