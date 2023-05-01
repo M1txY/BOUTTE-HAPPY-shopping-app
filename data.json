@@ -1,8 +1,8 @@
 {
-    "hightech": [
+    "produits": [
         {
             "id": 1,
-            "name": "",
+            "name": "ipad",
             "price": 160,
             "release_date": "",
             "colors": "",
@@ -13,22 +13,191 @@
             "img_2": "assets/img/tablette/",
             "img_3": "assets/img/tablette/",
             "available": true,
-            "sizes": ""
-        }
-    ],
-    "category": [
-        {
-            "id": 0,
-            "name": "Appareil photo"
-        },
-        {
-            "id": 1,
-            "name": "Casque audio"
+            "sizes": "",
+            "categories": 1
         },
         {
             "id": 2,
-            "name": "Téléphone"
+            "name": "galaxy tab",
+            "price": 160,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/tablette/",
+            "img_2": "assets/img/tablette/",
+            "img_3": "assets/img/tablette/",
+            "available": true,
+            "sizes": "",
+            "categories": 1
+        },
+        {
+            "id": 3,
+            "name": "xiaomi Redmi Note 11",
+            "price": 160,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/tablette/",
+            "img_2": "assets/img/tablette/",
+            "img_3": "assets/img/tablette/",
+            "available": true,
+            "sizes": "",
+            "categories": [1]
+        },
+        {
+            "id": 4,
+            "name": "Google Pixel 6a",
+            "price": 160,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/tablette/",
+            "img_2": "assets/img/tablette/",
+            "img_3": "assets/img/tablette/",
+            "available": true,
+            "sizes": "",
+            "categories": [1]
+        },
+        {
+            "id": 5,
+            "name": "Xiaomi 13 pro",
+            "price": 160,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/tablette/",
+            "img_2": "assets/img/tablette/",
+            "img_3": "assets/img/tablette/",
+            "available": true,
+            "sizes": "",
+            "categories": [1]
+        },
+
+        {
+            "id": 6,
+            "name": "Casque Apple",
+            "price": 280,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/apple_blanc.png",
+            "img_2": "assets/img/casques/apple_noir.png",
+            "img_3": "assets/img/casques/apple_bleu.png",
+            "available": true,
+            "sizes": "",
+            "categories": [2]
+        },
+        {
+            "id": 7,
+            "name": "Casque Bose",
+            "price": 240,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/bose_noir.jpeg",
+            "img_2": "assets/img/casques/bose_blanc.jpeg",
+            "img_3": "assets/img/casques/bose_bleu.png",
+            "available": true,
+            "sizes": "",
+            "categories": [2]
+        },
+        {
+            "id": 8,
+            "name": "Casque JBL",
+            "price": 260,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/jbl_noir.webp",
+            "img_2": "assets/img/casques/jbl_blanc.webp",
+            "img_3": "assets/img/casques/jbl_bleu.webp",
+            "available": true,
+            "sizes": "",
+            "categories": [2]
+        },
+        {
+            "id": 8,
+            "name": "Casque Sony",
+            "price": 200,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/sony_noir.webp",
+            "img_2": "assets/img/casques/sony_blanc.webp",
+            "img_3": "assets/img/casques/sony_bleu.webp",
+            "available": true,
+            "sizes": "",
+            "categories": [2]
+        },
+        {
+            "id": 9,
+            "name": "Casque Beats",
+            "price": 240,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/beats_noir.jpg",
+            "img_2": "assets/img/casques/beats_blanc.jpg",
+            "img_3": "assets/img/casques/beats_bleu.jpg",
+            "available": true,
+            "sizes": "",
+            "categories": [2]
         }
+
+    ],
+
+
+
+
+
+     "categories": [
+        {   
+            "id":1,
+            "nom":"Smartphones et tablettes"
+        },
+        {
+            "id": 2,
+            "nom": "Casques"
+        },
+        {
+            "id": 3,
+            "name": "Ordinateurs"
+        },
+        {
+            "id":4,
+            "nom":"Equipement de jeux vidéo"
+        },
+        {
+            "id":5,
+            "nom":"Produits de domotique"
+        }
+
     ]
+
+
+
+
+
+
+
+
     
 }
