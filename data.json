@@ -2,48 +2,48 @@
     "produits": [
         {
             "id": 1,
-            "name": "ipad",
-            "price": 160,
+            "name": "iphone 14",
+            "price": 980,
             "release_date": "",
             "colors": "",
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
-            "img_1": "assets/img/tablette/",
-            "img_2": "assets/img/tablette/",
-            "img_3": "assets/img/tablette/",
+            "img_1": "asset/img/smartphones/iphone-14-noir.webp",
+            "img_2": "asset/img/smartphones/iphone_14_blanc.webp",
+            "img_3": "asset/img/smartphones/iphone_14_bleu.webp",
             "available": true,
             "sizes": "",
             "categories": 1
         },
         {
             "id": 2,
-            "name": "galaxy tab",
-            "price": 160,
+            "name": "Redmi note 12",
+            "price": 760,
             "release_date": "",
             "colors": "",
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
-            "img_1": "assets/img/tablette/",
-            "img_2": "assets/img/tablette/",
-            "img_3": "assets/img/tablette/",
+            "img_1": "asset/img/smartphones/Redmi_Note_Noir.webp",
+            "img_2": "asset/img/smartphones/Redmi-Note-Blanc.jpg",
+            "img_3": "asset/img/smartphones/Redmi_Note_Bleu.webp",
             "available": true,
             "sizes": "",
             "categories": 1
         },
         {
             "id": 3,
-            "name": "xiaomi Redmi Note 11",
-            "price": 160,
+            "name": "Huawei P30",
+            "price": 320,
             "release_date": "",
             "colors": "",
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
-            "img_1": "assets/img/tablette/",
-            "img_2": "assets/img/tablette/",
-            "img_3": "assets/img/tablette/",
+            "img_1": "asset/img/smartphones/huawei_p30_noir.png",
+            "img_2": "asset/img/smartphones/Huawei-P30-Blanc.jpg",
+            "img_3": "asset/img/smartphones/huawei-p30-bleu.webp",
             "available": true,
             "sizes": "",
             "categories": [1]
@@ -51,31 +51,31 @@
         {
             "id": 4,
             "name": "Google Pixel 6a",
-            "price": 160,
+            "price": 560,
             "release_date": "",
             "colors": "",
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
-            "img_1": "assets/img/tablette/",
-            "img_2": "assets/img/tablette/",
-            "img_3": "assets/img/tablette/",
+            "img_1": "asset/img/smartphones/google-Pixel-6a_Noir.jpg",
+            "img_2": "asset/img/smartphones/google_pixel_6a_blanc.png",
+            "img_3": "asset/img/smartphones/google-pixel-6a-sauge.jpg",
             "available": true,
             "sizes": "",
             "categories": [1]
         },
         {
             "id": 5,
-            "name": "Xiaomi 13 pro",
-            "price": 160,
+            "name": "Oppo Find X5",
+            "price": 699,
             "release_date": "",
             "colors": "",
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
-            "img_1": "assets/img/tablette/",
-            "img_2": "assets/img/tablette/",
-            "img_3": "assets/img/tablette/",
+            "img_1": "asset/img/smartphones/Oppo-Find-X5_Noir.jpg",
+            "img_2": "asset/img/smartphones/Oppo-Find-X5_Blanc.jpg",
+            "img_3": "asset/img/smartphones/oppo_find_x5_bleu.webp",
             "available": true,
             "sizes": "",
             "categories": [1]
@@ -130,7 +130,7 @@
             "categories": [2]
         },
         {
-            "id": 8,
+            "id": 9,
             "name": "Casque Sony",
             "price": 200,
             "release_date": "",
@@ -146,24 +146,6 @@
             "categories": [2]
         },
         {
-            "id": 9,
-            "name": "Casque Beats",
-            "price": 240,
-            "release_date": "",
-            "colors": "",
-            "delivery_time": 5,
-            "delivery_price": 6,
-            "reduction": 0,
-            "img_1": "assets/img/casques/beats_noir.jpg",
-            "img_2": "assets/img/casques/beats_blanc.jpg",
-            "img_3": "assets/img/casques/beats_bleu.jpg",
-            "available": true,
-            "sizes": "",
-            "categories": [2]
-<<<<<<< Updated upstream
-=======
-        },
-        {
             "id": 10,
             "name": "Casque Beats",
             "price": 240,
@@ -177,8 +159,86 @@
             "img_3": "assets/img/casques/beats_bleu.jpg",
             "available": true,
             "sizes": "",
+            "categories": [2]
+        },
+        {
+            "id": 11,
+            "name": "Acer Aspire",
+            "price": 1120,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "asset/img/ordi/acer_aspire_noir.jfif",
+            "img_2": "asset/img/ordi/acer-aspire-blanc.webp",
+            "img_3": "asset/img/ordi/acer_aspire_bleu.jfif",
+            "available": true,
+            "sizes": "",
             "categories": [3]
->>>>>>> Stashed changes
+        },
+        {
+            "id": 12,
+            "name": "Asus",
+            "price": 1400,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "asset/img/ordi/asus_gris.png.jpg",
+            "img_2": "asset/img/ordi/asus_blanc.png",
+            "img_3": "asset/img/ordi/asus_bleu.png",
+            "available": true,
+            "sizes": "",
+            "categories": [3]
+        },
+        {
+            "id": 13,
+            "name": "Casque Beats",
+            "price": 240,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/beats_noir.jpg",
+            "img_2": "assets/img/casques/beats_blanc.jpg",
+            "img_3": "assets/img/casques/beats_bleu.jpg",
+            "available": true,
+            "sizes": "",
+            "categories": [3]
+        },{
+            "id": 14,
+            "name": "Casque Beats",
+            "price": 240,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/beats_noir.jpg",
+            "img_2": "assets/img/casques/beats_blanc.jpg",
+            "img_3": "assets/img/casques/beats_bleu.jpg",
+            "available": true,
+            "sizes": "",
+            "categories": [3]
+        },
+        {
+            "id": 15,
+            "name": "Casque Beats",
+            "price": 240,
+            "release_date": "",
+            "colors": "",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "assets/img/casques/beats_noir.jpg",
+            "img_2": "assets/img/casques/beats_blanc.jpg",
+            "img_3": "assets/img/casques/beats_bleu.jpg",
+            "available": true,
+            "sizes": "",
+            "categories": [3]
         }
 
     ],
@@ -186,23 +246,18 @@
 
 
 
-
      "categories": [
         {   
             "id":1,
-<<<<<<< Updated upstream
-            "nom":"Smartphones et tablettes"
-=======
             "nom":"Smartphones"
->>>>>>> Stashed changes
         },
         {
-            "id": 2,
-            "nom": "Casques"
+            "id":2,
+            "nom":"Casques"
         },
         {
             "id": 3,
-            "name": "Ordinateurs"
+            "name":"Ordinateurs"
         },
         {
             "id":4,
