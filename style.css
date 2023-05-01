@@ -71,13 +71,20 @@ nav ul{
 
 li{
     margin: 0px 20px;
-    font-size: 13px;   
+    font-size: 13px;  
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 li:hover{
     cursor: pointer;
-    text-decoration:underline;
     color: #000000;
+    background-color: #a1a1a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li a {
@@ -91,3 +98,19 @@ li a:hover{
 
 
 
+#paniercount{
+    height: 15px;
+    width: 15px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -10px;
+    user-select: none;
+}
