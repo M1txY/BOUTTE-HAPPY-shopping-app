@@ -1,0 +1,93 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #edecec;
+}
+
+#barpromo{
+    height: 30px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#promo:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+
+#panier:hover{
+    cursor: pointer;
+}
+
+#panier{
+    height: 28px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#logo{
+    height: 30px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+li{
+    margin: 0px 20px;
+    font-size: 13px;   
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    color: #000000;
+}
+
+li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+li a:hover{
+    color: #000000;
+}
+
+
+
