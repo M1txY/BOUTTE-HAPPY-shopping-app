@@ -1,0 +1,22 @@
+{
+  "name": "backend_boutique",
+  "version": "1.0.0",
+  "description": "backend de la boutique pour la gestion de produit",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1txY/BOUTTE-HAPPY-shopping-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M1txY/BOUTTE-HAPPY-shopping-app/issues"
+  },
+  "homepage": "https://github.com/M1txY/BOUTTE-HAPPY-shopping-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

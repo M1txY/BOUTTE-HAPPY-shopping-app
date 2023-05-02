@@ -59,6 +59,7 @@ nav{
     height: 50px;
     width: 100%;
     display: flex;
+    
 }
 
 nav ul{
@@ -76,6 +77,7 @@ li{
     height: auto;
     padding: 5px 10px;
     border-radius: 5px;
+    
 }
 
 li:hover{
