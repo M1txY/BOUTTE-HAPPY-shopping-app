@@ -160,8 +160,6 @@
             "available": true,
             "sizes": "",
             "categories": [2]
-<<<<<<< Updated upstream
-=======
         },
         {
             "id": 10,
@@ -178,7 +176,6 @@
             "available": true,
             "sizes": "",
             "categories": [3]
->>>>>>> Stashed changes
         }
 
     ],
@@ -190,11 +187,7 @@
      "categories": [
         {   
             "id":1,
-<<<<<<< Updated upstream
-            "nom":"Smartphones et tablettes"
-=======
             "nom":"Smartphones"
->>>>>>> Stashed changes
         },
         {
             "id": 2,
