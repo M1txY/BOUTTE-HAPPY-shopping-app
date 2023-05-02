@@ -160,8 +160,6 @@
             "available": true,
             "sizes": "",
             "categories": [2]
-<<<<<<< Updated upstream
-=======
         },
         {
             "id": 15,
@@ -181,10 +179,7 @@
         }
 
     ],
-
-
-
-
+    
      "categories": [
         {   
             "id":1,
@@ -209,12 +204,4 @@
 
     ]
 
-
-
-
-
-
-
-
-    
 }

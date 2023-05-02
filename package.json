@@ -4,7 +4,7 @@
   "description": "backend de la boutique pour la gestion de produit",
   "main": "script.js",
   "scripts": {
-    "start": "node script.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/M1txY/BOUTTE-HAPPY-shopping-app#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0"
   }
 }
