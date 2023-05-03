@@ -159,18 +159,9 @@
             "available": true,
             "sizes": "",
             "categories": [2]
-        },
-      /*  {
-            "id": 11,
-            "name": "Acer Aspire",
-            "price": 1120,
-Expand Down
-Expand Up
-	@@ -241,103 +241,36 @@
-            "categories": [3]
         }
 
-    ,*/],
+      ],
 
     "ordinateur":[
 {
