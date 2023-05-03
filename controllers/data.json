@@ -46,7 +46,9 @@
             "img_3": "asset/img/smartphones/huawei-p30-bleu.webp",
             "available": true,
             "sizes": "",
-            "categories": [1]
+            "categories": [
+                1
+            ]
         },
         {
             "id": 4,
@@ -62,7 +64,9 @@
             "img_3": "asset/img/smartphones/google-pixel-6a-sauge.jpg",
             "available": true,
             "sizes": "",
-            "categories": [1]
+            "categories": [
+                1
+            ]
         },
         {
             "id": 5,
@@ -78,7 +82,9 @@
             "img_3": "asset/img/smartphones/oppo_find_x5_bleu.webp",
             "available": true,
             "sizes": "",
-            "categories": [1]
+            "categories": [
+                1
+            ]
         },
         {
             "id": 6,
@@ -94,7 +100,9 @@
             "img_3": "assets/img/casques/apple_bleu.png",
             "available": true,
             "sizes": "",
-            "categories": [2]
+            "categories": [
+                2
+            ]
         },
         {
             "id": 7,
@@ -110,7 +118,9 @@
             "img_3": "assets/img/casques/bose_bleu.png",
             "available": true,
             "sizes": "",
-            "categories": [2]
+            "categories": [
+                2
+            ]
         },
         {
             "id": 8,
@@ -126,7 +136,9 @@
             "img_3": "assets/img/casques/jbl_bleu.webp",
             "available": true,
             "sizes": "",
-            "categories": [2]
+            "categories": [
+                2
+            ]
         },
         {
             "id": 9,
@@ -142,7 +154,9 @@
             "img_3": "assets/img/casques/sony_bleu.webp",
             "available": true,
             "sizes": "",
-            "categories": [2]
+            "categories": [
+                2
+            ]
         },
         {
             "id": 10,
@@ -158,18 +172,22 @@
             "img_3": "assets/img/casques/beats_bleu.jpg",
             "available": true,
             "sizes": "",
-            "categories": [2]
+            "categories": [
+                2
+            ]
         }
-
-      ],
-
-    "ordinateur":[
-{
-        "id": 1,
+    ],
+    "ordinateur": [
+        {
+            "id": 1,
             "name": "Asus",
             "price": 1400,
             "release_date": "",
-            "colors":["noir","blanc","bleu"],
+            "colors": [
+                "noir",
+                "blanc",
+                "bleu"
+            ],
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
@@ -178,14 +196,17 @@
             "img_3": "asset/img/ordi/asus_bleu.png",
             "available": true,
             "sizes": ""
-
         },
         {
             "id": 2,
             "name": "Acer Aspire",
             "price": 1120,
             "release_date": "",
-            "colors":["noir","blanc","bleu"],
+            "colors": [
+                "noir",
+                "blanc",
+                "bleu"
+            ],
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
@@ -200,7 +221,11 @@
             "name": "Lenovo Ideapad",
             "price": 560,
             "release_date": "",
-            "colors":["noir","blanc","bleu"],
+            "colors": [
+                "noir",
+                "blanc",
+                "bleu"
+            ],
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
@@ -215,7 +240,11 @@
             "name": "Dell XPS",
             "price": 1240,
             "release_date": "",
-            "colors": ["noir","blanc","bleu"],
+            "colors": [
+                "noir",
+                "blanc",
+                "bleu"
+            ],
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
@@ -230,7 +259,11 @@
             "name": "Macbook Air",
             "price": 2240,
             "release_date": "",
-            "colors": ["noir","blanc","gris"],
+            "colors": [
+                "noir",
+                "blanc",
+                "gris"
+            ],
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
@@ -240,6 +273,5 @@
             "available": true,
             "sizes": ""
         }
-
-
-   ]}
+    ]
+}
