@@ -11,8 +11,8 @@
             ],
             "img_1": "img/smartphones/iphone-14-noir.webp",
             "img_2": "img/smartphones/iphone_14_blanc.webp",
-            "img_3": "img/smartphones/iphone_14_bleu.webp",
-            "available": true
+            "img_3": "img/smartphones/iphone_14_bleu.webp"
+            
         },
         {
             "id": 2,
@@ -21,8 +21,8 @@
             "colors": "",
             "img_1": "img/smartphones/Redmi_Note_Noir.webp",
             "img_2": "img/smartphones/Redmi-Note-Blanc.jpg",
-            "img_3": "img/smartphones/Redmi_Note_Bleu.webp",
-            "available": true
+            "img_3": "img/smartphones/Redmi_Note_Bleu.webp"
+            
            
         },
         {
@@ -36,8 +36,8 @@
             ],
             "img_1": "img/smartphones/huawei_p30_noir.png",
             "img_2": "img/smartphones/Huawei-P30-Blanc.jpg",
-            "img_3": "img/smartphones/huawei-p30-bleu.webp",
-            "available": true
+            "img_3": "img/smartphones/huawei-p30-bleu.webp"
+            
             
         },
         {
@@ -51,8 +51,8 @@
             ],
             "img_1": "img/smartphones/google-Pixel-6a_Noir.jpg",
             "img_2": "img/smartphones/google_pixel_6a_blanc.png",
-            "img_3": "img/smartphones/google-pixel-6a-sauge.jpg",
-            "available": true
+            "img_3": "img/smartphones/google-pixel-6a-sauge.jpg"
+            
            
         },
         {
@@ -66,8 +66,8 @@
             ],
             "img_1": "img/smartphones/Oppo-Find-X5_Noir.jpg",
             "img_2": "img/smartphones/Oppo-Find-X5_Blanc.jpg",
-            "img_3": "img/smartphones/oppo_find_x5_bleu.webp",
-            "available": true
+            "img_3": "img/smartphones/oppo_find_x5_bleu.webp"
+            
             
         }],
 
@@ -83,8 +83,8 @@
             ],
             "img_1": "img/casques/apple_noir.png",
             "img_2": "img/casques/apple_blanc.png",
-            "img_3": "img/casques/apple_bleu.png",
-            "available": true
+            "img_3": "img/casques/apple_bleu.png"
+            
         },
         {
             "id": 2,
@@ -97,8 +97,8 @@
             ],
             "img_1": "img/casques/bose_noir.jpeg",
             "img_2": "img/casques/bose_blanc.png",
-            "img_3": "img/casques/bose_bleu.png",
-            "available": true
+            "img_3": "img/casques/bose_bleu.png"
+            
         },
         {
             "id": 3,
@@ -111,8 +111,8 @@
             ],
             "img_1": "img/casques/jbl_noir.webp",
             "img_2": "img/casques/jbl_blanc.webp",
-            "img_3": "img/casques/jbl_bleu.webp",
-            "available": true
+            "img_3": "img/casques/jbl_bleu.webp"
+            
             
         },
         {
@@ -126,8 +126,8 @@
             ],
             "img_1": "img/casques/sony_noir.webp",
             "img_2": "img/casques/sony_blanc.webp",
-            "img_3": "img/casques/sony_bleu.webp",
-            "available": true
+            "img_3": "img/casques/sony_bleu.webp"
+            
         },
         {
             "id": 5,
@@ -140,8 +140,8 @@
             ],
             "img_1": "img/casques/beats_noir.jpg",
             "img_2": "img/casques/bose_blanc.png",
-            "img_3": "img/casques/bose_bleu.png",
-            "available": true
+            "img_3": "img/casques/bose_bleu.png"
+            
         }
     ],
 
@@ -159,8 +159,8 @@
             ],
             "img_1": "img/ordinateurs/asus_gris.png",
             "img_2": "img/ordinateurs/asus_blanc.png",
-            "img_3": "img/ordinateurs/asus_bleu.png",
-            "available": true
+            "img_3": "img/ordinateurs/asus_bleu.png"
+            
         },
         {
             "id": 2,
@@ -173,8 +173,8 @@
             ],
             "img_1": "img/ordi/acer_aspire_noir.jfif",
             "img_2": "img/ordi/acer-aspire-blanc.webp",
-            "img_3": "img/ordi/acer_aspire_bleu.jfif",
-            "available": true
+            "img_3": "img/ordi/acer_aspire_bleu.jfif"
+            
         },
         {
             "id": 3,
@@ -187,8 +187,8 @@
             ],
             "img_1": "img/ordi/Lenovo-Ideapad-Noir.jpg",
             "img_2": "img/ordi/Lenovo-IdeaPad-blanc.jpg",
-            "img_3": "img/ordi/Lenovo-Ideapad-Bleu.jpg",
-            "available": true
+            "img_3": "img/ordi/Lenovo-Ideapad-Bleu.jpg"
+            
         },
         {
             "id": 4,
@@ -201,8 +201,8 @@
             ],
             "img_1": "img/ordi/dell_xps_noir.jfif",
             "img_2": "img/ordi/dell_xps_blanc.jfif",
-            "img_3": "img/ordi/dell_xps_bleu.jfif",
-            "available": true
+            "img_3": "img/ordi/dell_xps_bleu.jfif"
+            
         },
         {
             "id": 5,
@@ -215,8 +215,8 @@
             ],
             "img_1": "img/ordi/macbook-air-noir.jfif",
             "img_2": "img/ordi/macbook-air-blanc.jfif",
-            "img_3": "img/ordi/macbook-air-gris.jfif",
-            "available": true
+            "img_3": "img/ordi/macbook-air-gris.jfif"
+            
         }
     ],
     
@@ -231,8 +231,8 @@
                 "blanc"
             ],
             "img_1": "img/accessoires/disque_dur_noir.jpg",
-            "img_2": "img/accessoires/disque_dur_blanc.jpg",
-            "available": true
+            "img_2": "img/accessoires/disque_dur_blanc.jpg"
+            
         },
         {
             "id": 2,
@@ -245,8 +245,8 @@
             ],
             "img_1": "img/accessoires/Dualshock-4-noir.jpg",
             "img_2": "img/accessoires/Dualshock-4-Blanc.jpg",
-            "img_3": "img/accessoires/Dualshock-4-bleu.jpg",
-            "available": true
+            "img_3": "img/accessoires/Dualshock-4-bleu.jpg"
+            
         }
 
     ]
