@@ -161,7 +161,7 @@
             "sizes": "",
             "categories": [2]
         },
-      /*  {
+        {
             "id": 11,
             "name": "Acer Aspire",
             "price": 1120,
@@ -241,101 +241,34 @@
             "categories": [3]
         }
 
-    ,*/],
+    ],
 
-    "ordinateur":[
-{
-        "id": 1,
-            "name": "Asus",
-            "price": 1400,
-            "release_date": "",
-            "colors":["noir","blanc","bleu"],
-            "delivery_time": 5,
-            "delivery_price": 6,
-            "reduction": 0,
-            "img_1": "asset/img/ordi/asus_gris.png.jpg",
-            "img_2": "asset/img/ordi/asus_blanc.png",
-            "img_3": "asset/img/ordi/asus_bleu.png",
-            "available": true,
-            "sizes": ""
-        
+
+
+
+     "categories": [
+        {   
+            "id":1,
+            "nom":"Smartphones"
         },
         {
-            "id": 2,
-            "name": "Acer Aspire",
-            "price": 1120,
-            "release_date": "",
-            "colors":["noir","blanc","bleu"],
-            "delivery_time": 5,
-            "delivery_price": 6,
-            "reduction": 0,
-            "img_1": "asset/img/ordi/acer_aspire_noir.jfif",
-            "img_2": "asset/img/ordi/acer-aspire-blanc.webp",
-            "img_3": "asset/img/ordi/acer_aspire_bleu.jfif",
-            "available": true,
-            "sizes": ""
+            "id":2,
+            "nom":"Casques"
         },
         {
             "id": 3,
-            "name": "Lenovo Ideapad",
-            "price": 560,
-            "release_date": "",
-            "colors":["noir","blanc","bleu"],
-            "delivery_time": 5,
-            "delivery_price": 6,
-            "reduction": 0,
-            "img_1": "asset/img/ordi/Lenovo-Ideapad-Noir.jpg",
-            "img_2": "asset/img/ordi/Lenovo-IdeaPad-blanc.jpg",
-            "img_3": "asset/img/ordi/Lenovo-Ideapad-Bleu.jpg",
-            "available": true,
-            "sizes": ""
+            "name":"Ordinateurs"
         },
         {
-            "id": 4,
-            "name": "Dell XPS",
-            "price": 1240,
-            "release_date": "",
-            "colors": ["noir","blanc","bleu"],
-            "delivery_time": 5,
-            "delivery_price": 6,
-            "reduction": 0,
-            "img_1": "asset/img/ordi/dell_xps_noir.jfif",
-            "img_2": "asset/img/ordi/dell_xps_blanc.jfif",
-            "img_3": "asset/img/ordi/dell_xps_bleu.jfif",
-            "available": true,
-            "sizes": ""
+            "id":4,
+            "nom":"Equipement de jeux vidéo"
         },
         {
-            "id": 15,
-            "name": "Macbook Air",
-            "price": 2240,
-            "release_date": "",
-            "colors": ["noir","blanc","gris"],
-            "delivery_time": 5,
-            "delivery_price": 6,
-            "reduction": 0,
-            "img_1": "asset/img/ordi/macbook-air-noir.jfif",
-            "img_2": "asset/img/ordi/macbook-air-blanc.jfif",
-            "img_3": "asset/img/ordi/macbook-air-gris.jfif",
-            "available": true,
-            "sizes": ""
+            "id":5,
+            "nom":"Produits de domotique"
         }
 
-
-
-
-
-
-
-
-
-
-
-
     ]
-
-
-    
 
 
 
