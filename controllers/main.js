@@ -1,31 +1,53 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-
 const app = express();
+const port = 8000;
 
-// Configuration de bodyParser pour pouvoir récupérer le corps des requêtes POST
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+const data = require('./data.json')
 
-// Routes
+var smartphones = data.smartphones;
+var casques = data.casques;
+var ordinateurs = data.ordinateurs;
+var accessoires = data.accessoires;
+
 app.get('/', (req, res) => {
-  res.send('API pour trier des JSON par catégorie');
+  res.send(`
+    <h1>API</h1>
+    <a href="/produits">Tous les produits</a>
+    <a href="/smartphones">smartphones</a>
+    <a href="/casques">casques</a>
+    <a href="/ordinateurs">ordinateurs</a>
+    <a href="/accessoires">accessoires</a>
+    `);
+})
+
+
+app.get('/smartphones', (req, res) => {
+  res.send(smartphones);
 });
 
-// Route pour trier les JSON par catégorie
-app.get('/json/:category', (req, res) => {
-  const category = req.params.category;
-  const data = require('./data.json');
 
-  // Filtrer les données par catégorie
-  const filteredData = data.filter(item => item.category === category);
-
-  // Renvoyer les données filtrées en tant que réponse
-  res.json(filteredData);
+app.get('/casques', (req, res) => {
+  res.send(casques);
 });
 
-// Démarrer le serveur
-const port = process.env.PORT || 3000;
+
+app.get('/ordinateurs', (req, res) => {
+  res.send(ordinateurs);
+});
+
+
+app.get('/accessoires', (req, res) => {
+  res.send(accessoires);
+});
+
+
+app.get('/produits', (req, res) => {
+  res.send(data);
+});
+
+
+
 app.listen(port, () => {
-  console.log(`Serveur démarré sur le port ${port}`);
-});
+  console.log(`Example app listening at http://localhost:${port}`)
+})
+

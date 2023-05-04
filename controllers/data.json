@@ -71,78 +71,78 @@
             
         }],
 
-        "casques":[
-        {
-            "id": 1,
-            "name": "Casque Apple",
-            "price": 280,
-            "colors":[
-                "noir",
-                "blanc",
-                "bleu"
-            ],
-            "img_1": "img/casques/apple_noir.png",
-            "img_2": "img/casques/apple_blanc.png",
-            "img_3": "img/casques/apple_bleu.png"
-            
-        },
-        {
-            "id": 2,
-            "name": "Casque Bose",
-            "price": 240,
-            "colors": [
-                "noir",
-                "blanc",
-                "bleu"
-            ],
-            "img_1": "img/casques/bose_noir.jpeg",
-            "img_2": "img/casques/bose_blanc.png",
-            "img_3": "img/casques/bose_bleu.png"
-            
-        },
-        {
-            "id": 3,
-            "name": "Casque JBL",
-            "price": 260,
-            "colors":[
-                "noir",
-                "blanc",
-                "bleu"
-            ],
-            "img_1": "img/casques/jbl_noir.webp",
-            "img_2": "img/casques/jbl_blanc.webp",
-            "img_3": "img/casques/jbl_bleu.webp"
-            
-            
-        },
-        {
-            "id": 4,
-            "name": "Casque Sony",
-            "price": 200,
-            "colors":[
-                "noir",
-                "blanc",
-                "bleu"
-            ],
-            "img_1": "img/casques/sony_noir.webp",
-            "img_2": "img/casques/sony_blanc.webp",
-            "img_3": "img/casques/sony_bleu.webp"
-            
-        },
-        {
-            "id": 5,
-            "name": "Casque Beats",
-            "price": 240,
-           "colors": [
-                "noir",
-                "blanc",
-                "bleu"
-            ],
-            "img_1": "img/casques/beats_noir.jpg",
-            "img_2": "img/casques/bose_blanc.png",
-            "img_3": "img/casques/bose_bleu.png"
-            
-        }
+    "casques":[
+    {
+        "id": 1,
+        "name": "Casque Apple",
+        "price": 280,
+        "colors":[
+            "noir",
+            "blanc",
+            "bleu"
+        ],
+        "img_1": "img/casques/apple_noir.png",
+        "img_2": "img/casques/apple_blanc.png",
+        "img_3": "img/casques/apple_bleu.png"
+        
+    },
+    {
+        "id": 2,
+        "name": "Casque Bose",
+        "price": 240,
+        "colors": [
+            "noir",
+            "blanc",
+            "bleu"
+        ],
+        "img_1": "img/casques/bose_noir.jpeg",
+        "img_2": "img/casques/bose_blanc.png",
+        "img_3": "img/casques/bose_bleu.png"
+        
+    },
+    {
+        "id": 3,
+        "name": "Casque JBL",
+        "price": 260,
+        "colors":[
+            "noir",
+            "blanc",
+            "bleu"
+        ],
+        "img_1": "img/casques/jbl_noir.webp",
+        "img_2": "img/casques/jbl_blanc.webp",
+        "img_3": "img/casques/jbl_bleu.webp"
+        
+        
+    },
+    {
+        "id": 4,
+        "name": "Casque Sony",
+        "price": 200,
+        "colors":[
+            "noir",
+            "blanc",
+            "bleu"
+        ],
+        "img_1": "img/casques/sony_noir.webp",
+        "img_2": "img/casques/sony_blanc.webp",
+        "img_3": "img/casques/sony_bleu.webp"
+        
+    },
+    {
+        "id": 5,
+        "name": "Casque Beats",
+        "price": 240,
+        "colors": [
+            "noir",
+            "blanc",
+            "bleu"
+        ],
+        "img_1": "img/casques/beats_noir.jpg",
+        "img_2": "img/casques/bose_blanc.png",
+        "img_3": "img/casques/bose_bleu.png"
+        
+    }
     ],
 
 
@@ -250,12 +250,5 @@
         }
 
     ]
-
-
-
-
-
-
-
 
 }
