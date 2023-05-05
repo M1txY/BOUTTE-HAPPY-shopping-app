@@ -19,7 +19,7 @@ body {
 
 #promo:hover {
     cursor: pointer;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 header {
@@ -84,17 +84,25 @@ li:hover {
     background-color: #a1a1a1;
 }
 
-li:hover a {
+li:hover button {
     color: #000000;
 }
 
-li a {
+li button {
     text-decoration: none;
     color: #808080;
 }
 
-li a:hover {
+li button:hover {
     color: #000000;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #paniercount {
@@ -114,16 +122,60 @@ li a:hover {
     user-select: none;
 }
 
+/* Conteneur de la liste des produits */
+.reponstjson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Carte de produit */
+.product {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Image du produit */
+.product_img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Effet de hover pour changer d'image */
+.product:hover .product_img img {
+    transform: scale(1.1);
+}
+
+/* Info sur le produit */
+.product_info {
+    padding: 10px;
+}
+
+.product_info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product_info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 
 @media only screen and (max-width: 768px) {
     nav ul {
-      flex-direction: column;
-      margin: 0;
-      padding: 0;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
-    
+
     li {
-      margin: 10px 0;
+        margin: 10px 0;
     }
-  }
-  
+}

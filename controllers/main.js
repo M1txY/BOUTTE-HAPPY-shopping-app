@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors'); // Importer le middleware cors
 const app = express();
 const port = 8000;
 
@@ -8,6 +9,8 @@ var smartphones = data.smartphones;
 var casques = data.casques;
 var ordinateurs = data.ordinateurs;
 var accessoires = data.accessoires;
+
+app.use(cors()); // Utiliser le middleware cors
 
 app.get('/', (req, res) => {
   res.send(`
@@ -50,4 +53,3 @@ app.get('/produits', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
-
