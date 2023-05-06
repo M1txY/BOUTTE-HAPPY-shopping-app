@@ -8,211 +8,80 @@ baseurl = "http://localhost:8000"
 
 
 selectbou_casque.addEventListener('click', function () {
-    fetch(baseurl + "/casques")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            reponstjson.innerHTML = "";
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+    displayProducts(baseurl + "/casques");
 });
-
 
 selectbou_telephone.addEventListener('click', function () {
-    fetch(baseurl + "/smartphones")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            reponstjson.innerHTML = "";
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+    displayProducts(baseurl + "/smartphones");
 });
-
 
 selectbou_ordinateur.addEventListener('click', function () {
-    fetch(baseurl + "/ordinateurs")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            reponstjson.innerHTML = "";
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+    displayProducts(baseurl + "/ordinateurs");
 });
-
 
 selectbou_accessoire.addEventListener('click', function () {
-    fetch(baseurl + "/accessoires")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            reponstjson.innerHTML = "";
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+    displayProducts(baseurl + "/accessoires");
 });
 
+function displayProducts(url) {
+    fetch(url)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            let html = "";
+            data.forEach(function (product) {
+                html += getProductHtml(product);
+            });
+            reponstjson.innerHTML = html;
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+}
+
 selectbou_all.addEventListener('click', function () {
-    fetch(baseurl + "/smartphones")
-        .then(function (response) {
+    Promise.all([
+        fetch(baseurl + "/smartphones"),
+        fetch(baseurl + "/casques"),
+        fetch(baseurl + "/ordinateurs"),
+        fetch(baseurl + "/accessoires")
+    ])
+    .then(function (responses) {
+        return Promise.all(responses.map(function (response) {
             return response.json();
-        })
-        .then(function (data) {
-            reponstjson.innerHTML = "";
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
+        }));
+    })
+    .then(function (products) {
+        let html = "";
+        products.forEach(function (data) {
+            data.forEach(function (product) {
+                html += getProductHtml(product);
+            });
         });
-    fetch(baseurl + "/casques")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-    fetch(baseurl + "/ordinateurs")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-    fetch(baseurl + "/accessoires")
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            for (let i = 0; i < data.length; i++) {
-                reponstjson.innerHTML += `
-                <div class="product">
-                    <div class="product_img">
-                        <img src="${data[i].img_1}" alt="image produit">
-                    </div>
-                    <div class="product_info">
-                        <h3>${data[i].name}</h3>
-                        <p>${data[i].price}€</p>
-                        <button class="addpanier" title="${data[i].id}">Ajouter au panier</button>
-                    </div>
-                </div>
-                `;
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
+        reponstjson.innerHTML = html;
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
 });
+
+function getProductHtml(product) {
+    return `
+        <div class="product">
+            <div class="product_img">
+                <img src="${product.img_1}" alt="image produit">
+            </div>
+            <div class="product_info">
+                <h3>${product.name}</h3>
+                <p>${product.price}€</p>
+                <button class="addpanier" title="${product.id}">Ajouter au panier</button>
+            </div>
+        </div>
+    `;
+}
+
+
 
 
 
