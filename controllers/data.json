@@ -69,11 +69,25 @@
             "img_3": "img/smartphones/oppo_find_x5_bleu.webp"
             
             
-        }],
+        },
+        {
+            "id": 6,
+            "name": "Samsung Galaxy S21",
+            "price": 899,
+            "colors": [
+                "noir",
+                "blanc",
+                "rose"
+            ],
+            "img_1": "img/smartphones/samsung_galaxy_s21_noir.avif",
+            "img_2": "img/smartphones/samsung_galaxy_s21_blanc.avif",
+            "img_3": "img/smartphones/samsung_galaxy_s21_rose.avif"
+        }
+    ],
 
     "casques":[
     {
-        "id": 1,
+        "id": 7,
         "name": "Casque Apple",
         "price": 280,
         "colors":[
@@ -87,7 +101,7 @@
         
     },
     {
-        "id": 2,
+        "id": 8,
         "name": "Casque Bose",
         "price": 240,
         "colors": [
@@ -101,7 +115,7 @@
         
     },
     {
-        "id": 3,
+        "id": 9,
         "name": "Casque JBL",
         "price": 260,
         "colors":[
@@ -116,7 +130,7 @@
         
     },
     {
-        "id": 4,
+        "id": 10,
         "name": "Casque Sony",
         "price": 200,
         "colors":[
@@ -130,7 +144,7 @@
         
     },
     {
-        "id": 5,
+        "id": 11,
         "name": "Casque Beats",
         "price": 240,
         "colors": [
@@ -149,7 +163,7 @@
 
     "ordinateurs": [
         {
-            "id": 1,
+            "id": 12,
             "name": "Asus",
             "price": 1400,
             "colors": [
@@ -163,7 +177,7 @@
             
         },
         {
-            "id": 2,
+            "id": 13,
             "name": "Acer Aspire",
             "price": 1120,
             "colors": [
@@ -171,13 +185,13 @@
                 "blanc",
                 "bleu"
             ],
-            "img_1": "img/ordi/acer_aspire_noir.jfif",
-            "img_2": "img/ordi/acer-aspire-blanc.webp",
-            "img_3": "img/ordi/acer_aspire_bleu.jfif"
+            "img_1": "img/ordinateurs/acer_aspire_noir.jfif",
+            "img_2": "img/ordinateurs/acer-aspire-blanc.webp",
+            "img_3": "img/ordinateurs/acer_aspire_bleu.jfif"
             
         },
         {
-            "id": 3,
+            "id": 14,
             "name": "Lenovo Ideapad",
             "price": 560,
             "colors": [
@@ -185,13 +199,13 @@
                 "blanc",
                 "bleu"
             ],
-            "img_1": "img/ordi/Lenovo-Ideapad-Noir.jpg",
-            "img_2": "img/ordi/Lenovo-IdeaPad-blanc.jpg",
-            "img_3": "img/ordi/Lenovo-Ideapad-Bleu.jpg"
+            "img_1": "img/ordinateurs/Lenovo-Ideapad-Noir.jpg",
+            "img_2": "img/ordinateurs/Lenovo-IdeaPad-blanc.jpg",
+            "img_3": "img/ordinateurs/Lenovo-Ideapad-Bleu.jpg"
             
         },
         {
-            "id": 4,
+            "id": 15,
             "name": "Dell XPS",
             "price": 1240,
             "colors": [
@@ -199,13 +213,13 @@
                 "blanc",
                 "bleu"
             ],
-            "img_1": "img/ordi/dell_xps_noir.jfif",
-            "img_2": "img/ordi/dell_xps_blanc.jfif",
-            "img_3": "img/ordi/dell_xps_bleu.jfif"
+            "img_1": "img/ordinateurs/dell_xps_noir.jfif",
+            "img_2": "img/ordinateurs/dell_xps_blanc.jfif",
+            "img_3": "img/ordinateurs/dell_xps_bleu.jfif"
             
         },
         {
-            "id": 5,
+            "id": 16,
             "name": "Macbook Air",
             "price": 2240,
             "colors": [
@@ -213,9 +227,9 @@
                 "blanc",
                 "gris"
             ],
-            "img_1": "img/ordi/macbook-air-noir.jfif",
-            "img_2": "img/ordi/macbook-air-blanc.jfif",
-            "img_3": "img/ordi/macbook-air-gris.jfif"
+            "img_1": "img/ordinateurs/macbook-air-noir.jfif",
+            "img_2": "img/ordinateurs/macbook-air-blanc.jfif",
+            "img_3": "img/ordinateurs/macbook-air-gris.jfif"
             
         }
     ],
@@ -223,7 +237,7 @@
     "accessoires":[
 
         {
-            "id": 1,
+            "id": 17,
             "name": "Disque dur externe",
             "price": 300,
             "colors": [
@@ -235,7 +249,7 @@
             
         },
         {
-            "id": 2,
+            "id": 18,
             "name": "Dualschock 4",
             "price": 54,
             "colors": [

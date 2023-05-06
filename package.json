@@ -4,7 +4,7 @@
   "description": "backend de la boutique pour la gestion de produit",
   "main": "script.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node controllers/main.js"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +11,25 @@
     <meta name="keywords" content="shellfish, vente, high-tech, casque, téléphone, ordinateur, tablette, accessoire">
     <meta name="author" content="Mtx1">
 </head>
+
 <body>
     <section id="barpromo">
         <span id="promo">50% on all old models</span>
     </section>
     <header>
-        <img id="logo" src="img/shellfish.png" alt="logo">  
-        <div>
-           <img id="panier" src="img/sac-de-courses.png" alt="panier">
-            <span id="paniercount"></span> 
-        </div>
-        
+        <img id="logo" src="img/shellfish.png" alt="logo">
+        <button class="panierbtn">
+            <img class="changeicon" src="img/sac-de-courses.png" alt="panier">
+            <span id="paniercount"></span>
+        </button>
+
     </header>
+    <div class="panierctn">
+        <h2>Votre panier :</h2>
+        <div class="productctn">
+
+        </div>
+    </div>
     <nav>
         <ul>
             <li><button class="selectbou_all" title="all">Tous voir</button></li>
@@ -30,19 +38,12 @@
             <li><button class="selectbou_ordinateur" title="ordinateur">Ordinateur</button></li>
             <li><button class="selectbou_accessoire" title="accessoire">Accessoire</button></li>
         </ul>
-        
+
     </nav>
 
     <div class="reponstjson">
-
-
-        
     </div>
-
-
-
-
-    <script src="js/script.js"></script> <!-- script pour le panier -->
     <script src="js/product.js"></script> <!-- script pour l'affichage des produits -->
 </body>
+
 </html>
