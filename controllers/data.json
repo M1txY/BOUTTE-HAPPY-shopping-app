@@ -5,23 +5,38 @@
             "name": "iphone 14",
             "price": 980,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/smartphones/iphone-14-noir.webp",
-            "img_2": "img/smartphones/iphone_14_blanc.webp",
-            "img_3": "img/smartphones/iphone_14_bleu.webp"
+            "description": "L'iPhone 14 Pro est le smartphone ultime pour les utilisateurs exigeants, avec un écran ProMotion OLED ultra-fluide, un processeur ultra-puissant et une caméra arrière à triple objectif Pro de 12 mégapixels. Doté de fonctionnalités de sécurité avancées et d'une résistance à l'eau et à la poussière, l'iPhone 14 Pro offre une expérience utilisateur exceptionnelle avec un design élégant en acier inoxydable et en verre.",
+            "size": [
+                "128 Go",
+                "256 Go",
+                "512 Go"
+            ],
+            "black": ["img/smartphones/iphone-14-black.webp"],
+            "white": ["img/smartphones/iphone_14_white.webp"],
+            "blue": ["img/smartphones/iphone_14_blue.webp"]
             
         },
         {
             "id": 2,
             "name": "Redmi note 12",
             "price": 760,
-            "colors": "",
-            "img_1": "img/smartphones/Redmi_Note_Noir.webp",
-            "img_2": "img/smartphones/Redmi-Note-Blanc.jpg",
-            "img_3": "img/smartphones/Redmi_Note_Bleu.webp"
+            "colors": [
+                "black",
+                "white",
+                "blue"
+            ],
+            "description": "Le Redmi Note 12 est un smartphone haut de gamme avec un écran AMOLED de 6,67 pouces, un processeur Snapdragon 888 et une caméra arrière à triple objectif de 108 mégapixels. Doté d'une batterie de 5000 mAh, d'une charge rapide et d'une charge sans fil, le Redmi Note 12 est un smartphone haut de gamme qui offre une expérience utilisateur exceptionnelle.",
+            "size": [
+                "128 Go",
+                "256 Go"
+            ],
+            "black": ["img/smartphones/Redmi_Note_black.webp"],
+            "white": ["img/smartphones/Redmi-Note-white.jpg"],
+            "blue": ["img/smartphones/Redmi_Note_blue.webp"]
             
            
         },
@@ -30,13 +45,18 @@
             "name": "Huawei P30",
             "price": 320,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/smartphones/huawei_p30_noir.png",
-            "img_2": "img/smartphones/Huawei-P30-Blanc.jpg",
-            "img_3": "img/smartphones/huawei-p30-bleu.webp"
+            "description": "Le Huawei P30 est un smartphone haut de gamme avec un écran OLED de 6,1 pouces, un processeur Kirin 980 et une caméra arrière à triple objectif de 40 mégapixels. Doté d'une batterie de 3650 mAh, d'une charge rapide et d'une charge sans fil, le Huawei P30 est un smartphone haut de gamme qui offre une expérience utilisateur exceptionnelle.",
+            "size": [
+                "128 Go",
+                "256 Go"
+            ],
+            "black": ["img/smartphones/huawei_p30_black.png"],
+            "white": ["img/smartphones/Huawei-P30-white.jpg"],
+            "blue": ["img/smartphones/huawei-p30-blue.webp"]
             
             
         },
@@ -45,13 +65,18 @@
             "name": "Google Pixel 6a",
             "price": 560,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "seagreen"
             ],
-            "img_1": "img/smartphones/google-Pixel-6a_Noir.jpg",
-            "img_2": "img/smartphones/google_pixel_6a_blanc.png",
-            "img_3": "img/smartphones/google-pixel-6a-sauge.jpg"
+            "description": "Le Google Pixel 6a est un smartphone haut de gamme avec un écran OLED de 6,1 pouces, un processeur Snapdragon 888 et une caméra arrière à triple objectif de 40 mégapixels. Doté d'une batterie de 3650 mAh, d'une charge rapide et d'une charge sans fil, le Google Pixel 6a est un smartphone haut de gamme qui offre une expérience utilisateur exceptionnelle.",
+            "size": [
+                "128 Go",
+                "256 Go"
+            ],
+            "black": ["img/smartphones/google-Pixel-6a_black.jpg"],
+            "white": ["img/smartphones/google_pixel_6a_white.png"],
+            "img_sauge": ["img/smartphones/google-pixel-6a-sauge.jpg"]
             
            
         },
@@ -60,13 +85,18 @@
             "name": "Oppo Find X5",
             "price": 699,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/smartphones/Oppo-Find-X5_Noir.jpg",
-            "img_2": "img/smartphones/Oppo-Find-X5_Blanc.jpg",
-            "img_3": "img/smartphones/oppo_find_x5_bleu.webp"
+            "description": "L'Oppo Find X5 est un smartphone haut de gamme avec un écran OLED de 6,1 pouces, un processeur Snapdragon 888 et une caméra arrière à triple objectif de 40 mégapixels. Doté d'une batterie de 3650 mAh, d'une charge rapide et d'une charge sans fil, l'Oppo Find X5 est un smartphone haut de gamme qui offre une expérience utilisateur exceptionnelle.",
+            "size": [
+                "128 Go",
+                "256 Go"
+            ],
+            "black": ["img/smartphones/Oppo-Find-X5_black.jpg"],
+            "white": ["img/smartphones/Oppo-Find-X5_white.jpg"],
+            "blue": ["img/smartphones/oppo_find_x5_blue.webp"]
             
             
         },
@@ -75,13 +105,19 @@
             "name": "Samsung Galaxy S21",
             "price": 899,
             "colors": [
-                "noir",
-                "blanc",
-                "rose"
+                "black",
+                "white",
+                "pink"
             ],
-            "img_1": "img/smartphones/samsung_galaxy_s21_noir.avif",
-            "img_2": "img/smartphones/samsung_galaxy_s21_blanc.avif",
-            "img_3": "img/smartphones/samsung_galaxy_s21_rose.avif"
+            "description": "Le Samsung Galaxy S21 est un smartphone haut de gamme avec un écran OLED de 6,1 pouces, un processeur Snapdragon 888 et une caméra arrière à triple objectif de 40 mégapixels. Doté d'une batterie de 3650 mAh, d'une charge rapide et d'une charge sans fil, le Samsung Galaxy S21 est un smartphone haut de gamme qui offre une expérience utilisateur exceptionnelle.",
+            "size": [
+                "128 Go",
+                "256 Go",
+                "512 Go"
+            ],
+            "black": ["img/smartphones/samsung_galaxy_s21_black.avif"],
+            "white": ["img/smartphones/samsung_galaxy_s21_white.avif"],
+            "pink": ["img/smartphones/samsung_galaxy_s21_rose.avif"]
         }
     ],
 
@@ -91,13 +127,15 @@
         "name": "Casque Apple",
         "price": 280,
         "colors":[
-            "noir",
-            "blanc",
-            "bleu"
+            "black",
+            "white",
+            "blue"
         ],
-        "img_1": "img/casques/apple_noir.png",
-        "img_2": "img/casques/apple_blanc.png",
-        "img_3": "img/casques/apple_bleu.png"
+        "description": "Le design des AirPods Max est très inspiré de AKG ou de Bang & Olufsen par exemple. Ce dernier est de type circum-aural. Cela signifie que les écouteurs se posent sur votre tête en entourant les oreilles (ils ne s’appuient pas sur les oreilles)." ,
+        
+        "black": ["img/casques/apple_black.png"],
+        "white": ["img/casques/apple_white.png"],
+        "blue": ["img/casques/apple_blue.png"]
         
     },
     {
@@ -105,13 +143,14 @@
         "name": "Casque Bose",
         "price": 240,
         "colors": [
-            "noir",
-            "blanc",
-            "bleu"
+            "black",
+            "white",
+            "blue"
         ],
-        "img_1": "img/casques/bose_noir.jpeg",
-        "img_2": "img/casques/bose_blanc.png",
-        "img_3": "img/casques/bose_bleu.png"
+        "description": "Le Bose Headphones 700 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
+        "black": ["img/casques/bose_black.jpeg"],
+        "white": ["img/casques/bose_white.png"],
+        "blue": ["img/casques/bose_blue.png"]
         
     },
     {
@@ -119,13 +158,14 @@
         "name": "Casque JBL",
         "price": 260,
         "colors":[
-            "noir",
-            "blanc",
-            "bleu"
+            "black",
+            "white",
+            "blue"
         ],
-        "img_1": "img/casques/jbl_noir.webp",
-        "img_2": "img/casques/jbl_blanc.webp",
-        "img_3": "img/casques/jbl_bleu.webp"
+        "description": "Le JBL Live 650BTNC est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
+        "black": ["img/casques/jbl_black.webp"],
+        "white": ["img/casques/jbl_white.webp"],
+        "blue": ["img/casques/jbl_blue.webp"]
         
         
     },
@@ -134,13 +174,14 @@
         "name": "Casque Sony",
         "price": 200,
         "colors":[
-            "noir",
-            "blanc",
-            "bleu"
+            "black",
+            "white",
+            "blue"
         ],
-        "img_1": "img/casques/sony_noir.webp",
-        "img_2": "img/casques/sony_blanc.webp",
-        "img_3": "img/casques/sony_bleu.webp"
+        "description": "Le Sony WH-1000XM4 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
+        "black": ["img/casques/sony_black.webp"],
+        "white": ["img/casques/sony_white.webp"],
+        "blue": ["img/casques/sony_blue.webp"]
         
     },
     {
@@ -148,13 +189,14 @@
         "name": "Casque Beats",
         "price": 240,
         "colors": [
-            "noir",
-            "blanc",
-            "bleu"
+            "black",
+            "white",
+            "blue"
         ],
-        "img_1": "img/casques/beats_noir.jpg",
-        "img_2": "img/casques/bose_blanc.png",
-        "img_3": "img/casques/bose_bleu.png"
+        "description": "Le Beats Solo Pro est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
+        "black": ["img/casques/beats_black.jpg"],
+        "white": ["img/casques/bose_white.png"],
+        "blue": ["img/casques/bose_blue.png"]
         
     }
     ],
@@ -167,13 +209,13 @@
             "name": "Asus",
             "price": 1400,
             "colors": [
-                "gris",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/ordinateurs/asus_gris.png",
-            "img_2": "img/ordinateurs/asus_blanc.png",
-            "img_3": "img/ordinateurs/asus_bleu.png"
+            "black": ["img/ordinateurs/asus_gris.png"],
+            "white": ["img/ordinateurs/asus_white.png"],
+            "blue": ["img/ordinateurs/asus_blue.png"]
             
         },
         {
@@ -181,13 +223,13 @@
             "name": "Acer Aspire",
             "price": 1120,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/ordinateurs/acer_aspire_noir.jfif",
-            "img_2": "img/ordinateurs/acer-aspire-blanc.webp",
-            "img_3": "img/ordinateurs/acer_aspire_bleu.jfif"
+            "black": ["img/ordinateurs/acer_aspire_black.jfif"],
+            "white": ["img/ordinateurs/acer-aspire-white.webp"],
+            "blue": ["img/ordinateurs/acer_aspire_blue.jfif"]
             
         },
         {
@@ -195,13 +237,13 @@
             "name": "Lenovo Ideapad",
             "price": 560,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/ordinateurs/Lenovo-Ideapad-Noir.jpg",
-            "img_2": "img/ordinateurs/Lenovo-IdeaPad-blanc.jpg",
-            "img_3": "img/ordinateurs/Lenovo-Ideapad-Bleu.jpg"
+            "black": ["img/ordinateurs/Lenovo-Ideapad-black.jpg"],
+            "white": ["img/ordinateurs/Lenovo-IdeaPad-white.jpg"],
+            "blue": ["img/ordinateurs/Lenovo-Ideapad-blue.jpg"]
             
         },
         {
@@ -209,13 +251,13 @@
             "name": "Dell XPS",
             "price": 1240,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/ordinateurs/dell_xps_noir.jfif",
-            "img_2": "img/ordinateurs/dell_xps_blanc.jfif",
-            "img_3": "img/ordinateurs/dell_xps_bleu.jfif"
+            "black": ["img/ordinateurs/dell_xps_black.jfif"],
+            "white": ["img/ordinateurs/dell_xps_white.jfif"],
+            "img_3": ["img/ordinateurs/dell_xps_blue.jfif"]
             
         },
         {
@@ -223,13 +265,13 @@
             "name": "Macbook Air",
             "price": 2240,
             "colors": [
-                "noir",
-                "blanc",
-                "gris"
+                "black",
+                "white",
+                "gray"
             ],
-            "img_1": "img/ordinateurs/macbook-air-noir.jfif",
-            "img_2": "img/ordinateurs/macbook-air-blanc.jfif",
-            "img_3": "img/ordinateurs/macbook-air-gris.jfif"
+            "black": ["img/ordinateurs/macbook-air-black.jfif"],
+            "white": ["img/ordinateurs/macbook-air-white.jfif"],
+            "gray": ["img/ordinateurs/macbook-air-gris.jfif"]
             
         }
     ],
@@ -241,11 +283,11 @@
             "name": "Disque dur externe",
             "price": 300,
             "colors": [
-                "noir",
-                "blanc"
+                "black",
+                "white"
             ],
-            "img_1": "img/accessoires/disque_dur_noir.jpg",
-            "img_2": "img/accessoires/disque_dur_blanc.jpg"
+            "black": ["img/accessoires/disque_dur_black.jpg"],
+            "white": ["img/accessoires/disque_dur_white.jpg"]
             
         },
         {
@@ -253,13 +295,13 @@
             "name": "Dualschock 4",
             "price": 54,
             "colors": [
-                "noir",
-                "blanc",
-                "bleu"
+                "black",
+                "white",
+                "blue"
             ],
-            "img_1": "img/accessoires/Dualshock-4-noir.jpg",
-            "img_2": "img/accessoires/Dualshock-4-Blanc.jpg",
-            "img_3": "img/accessoires/Dualshock-4-bleu.jpg"
+            "black": ["img/accessoires/Dualshock-4-black.jpg"],
+            "white": ["img/accessoires/Dualshock-4-white.jpg"],
+            "blue": ["img/accessoires/Dualshock-4-blue.jpg"]
             
         }
 

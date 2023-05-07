@@ -1,8 +1,14 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0px;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     background-color: #edecec;
+    overflow-x: hidden;
 }
 
 #barpromo {
@@ -127,6 +133,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .product {
@@ -178,7 +185,7 @@ button {
 }
 
 .panierctn {
-    position: fixed;
+    position: absolute;
     top: 110px;
     right: 0;
     height: 100%;
@@ -188,4 +195,13 @@ button {
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
     padding: 20px;
+}
+
+.color-choice {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
 }

@@ -72,19 +72,29 @@ selectbou_all.addEventListener('click', function () {
 });
 
 function getProductHtml(product) {
+    let colorsHtml = "";
+    product.colors.forEach(function (color, index) {
+        colorsHtml += `<div class="color-choice" data-color="${index}" style="background-color: ${color};"></div>`;
+    });
+    
+
     return `
         <div class="product">
             <div class="product_img">
-                <img src="${product.img_1}" alt="image produit">
+                <img src="${product.black[0]}" alt="image produit">
             </div>
             <div class="product_info">
                 <h3>${product.name}</h3>
                 <p>${product.price}€</p>
+                <div class="colors">
+                    ${colorsHtml}
+                </div>
                 <button class="addpanier" title="${product.id}">Ajouter au panier</button>
             </div>
         </div>
     `;
 }
+
 
 
 
@@ -123,8 +133,6 @@ if (panier == null || JSON.parse(panier).length == 0) {
   
   paniercount.style.display = 'flex';
 }
-
-
 
 
 const panierctn = document.querySelector('.panierctn');
