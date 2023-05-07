@@ -39,11 +39,44 @@ function displayProducts(url) {
                 html += getProductHtml(product);
             });
             reponstjson.innerHTML = html;
+
+            // Ajout de l'écouteur d'événements pour les choix de couleur
+            addColorChoiceListeners(); // Appelez la fonction ici
         })
         .catch(function (error) {
             console.log(error);
         });
 }
+
+selectbou_all.addEventListener('click', function () {
+    Promise.all([
+        fetch(baseurl + "/smartphones"),
+        fetch(baseurl + "/casques"),
+        fetch(baseurl + "/ordinateurs"),
+        fetch(baseurl + "/accessoires")
+    ])
+    .then(function (responses) {
+        return Promise.all(responses.map(function (response) {
+            return response.json();
+        }));
+    })
+    .then(function (products) {
+        let html = "";
+        products.forEach(function (data) {
+            data.forEach(function (product) {
+                html += getProductHtml(product);
+            });
+        });
+        reponstjson.innerHTML = html;
+
+        // Ajout de l'écouteur d'événements pour les choix de couleur
+        addColorChoiceListeners(); // Appelez la fonction ici
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
+});
+
 
 selectbou_all.addEventListener('click', function () {
     Promise.all([
@@ -73,15 +106,18 @@ selectbou_all.addEventListener('click', function () {
 
 function getProductHtml(product) {
     let colorsHtml = "";
+    let imageAttributes = "";
+
     product.colors.forEach(function (color, index) {
-        colorsHtml += `<div class="color-choice" data-color="${index}" style="background-color: ${color};"></div>`;
+        let colorSrc = product[color] ? product[color][0] : "";
+        colorsHtml += `<button class="color-choice" data-color-src="${colorSrc}" style="background-color: ${color};"></button>`;
+        imageAttributes += ` data-${color}-src="${colorSrc}"`;
     });
-    
 
     return `
         <div class="product">
             <div class="product_img">
-                <img src="${product.black[0]}" alt="image produit">
+                <img src="${product[product.colors[0]][0]}" class="product_img" alt="image produit"${imageAttributes}>
             </div>
             <div class="product_info">
                 <h3>${product.name}</h3>
@@ -96,9 +132,20 @@ function getProductHtml(product) {
 }
 
 
+function addColorChoiceListeners() {
+    const colorChoices = document.querySelectorAll('.color-choice');
+    colorChoices.forEach(function (colorChoice) {
+        colorChoice.addEventListener('click', changeProductColor);
+    }
+    );
+}
 
-
-
+function changeProductColor(e) {
+    console.log("Color choice clicked!");
+    const colorSrc = e.target.getAttribute('data-color-src');
+    const productImg = e.target.closest('.product').querySelector('.product_img');
+    productImg.src = colorSrc;
+}
 
 
 reponstjson.addEventListener('click', function (e) {
