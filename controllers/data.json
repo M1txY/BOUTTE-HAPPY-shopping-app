@@ -295,9 +295,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/accessoires/Dualshock-4-black.png"],
-            "white": ["img/accessoires/Dualshock-4-white.png"],
-            "blue": ["img/accessoires/Dualshock-4-blue.png"]
+            "black": ["img/accessoires/Dualshock-4-black.png","img/accessoires/dualshock_noir2.jpg","img/accessoires/dualshock_noir3.jpg"],
+            "white": ["img/accessoires/Dualshock-4-white.png","img/accessoires/dualshock_wht2.jpg","img/accessoires/dualshock_wht3.jpg"],
+            "blue": ["img/accessoires/Dualshock-4-blue.png","img/accessoires/manette_bleu2.avif","img/accessoires/manette_bleu3.avif"]
             
         }
 
