@@ -15,9 +15,9 @@
                 "256 Go",
                 "512 Go"
             ],
-            "black": ["img/smartphones/iphone-14-black.webp","img/smartphones/iphone_black2.avif","img/smartphones/iphone_black3.avif"],
-            "white": ["img/smartphones/iphone_14_white.webp","img/smartphones/iphone_blanc2.avif","img/smartphones/iphone_blanc3.jpg"],
-            "blue": ["img/smartphones/iphone_14_blue.webp","img/smartphones/iphone_bleu2.avif","img/smartphones/iphone_bleu3.avif"]
+            "black": ["img/smartphones/iphone-14-black.png","img/smartphones/iphone_black2.png","img/smartphones/iphone_black3.png"],
+            "white": ["img/smartphones/iphone_14_white.png","img/smartphones/iphone_blanc2.png","img/smartphones/iphone_blanc3.png"],
+            "blue": ["img/smartphones/iphone_14_blue.png","img/smartphones/iphone_bleu2.png","img/smartphones/iphone_bleu3.png"]
             
         },
         {
@@ -34,9 +34,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/Redmi_Note_black.webp","img/smartphones/Redmi_Note_black2.webp","img/smartphones/Redmi_Note_black3.webp"],
-            "white": ["img/smartphones/Redmi-Note-white.jpg","img/smartphones/redmi_blanc2.jfif","img/smartphones/redmi_blanc3.jfif"],
-            "blue": ["img/smartphones/Redmi_Note_blue.webp","img/smartphones/redmi_bleu2.avif","img/smartphones/redmi_bleu3.avif"]
+            "black": ["img/smartphones/Redmi_Note_black.png","img/smartphones/Redmi_Note_black2.png","img/smartphones/Redmi_Note_black3.png"],
+            "white": ["img/smartphones/Redmi-Note-white.png","img/smartphones/redmi_blanc2.jfif","img/smartphones/redmi_blanc3.jfif"],
+            "blue": ["img/smartphones/Redmi_Note_blue.png","img/smartphones/redmi_bleu2.png","img/smartphones/redmi_bleu3.png"]
 
         },
         {
@@ -53,9 +53,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/huawei_p30_black.png","img/smartphones/huawei-p30-black2.webp","img/smartphones/huawei-p30-black3.webp"],
-            "white": ["img/smartphones/Huawei-P30-white.jpg","img/smartphones/huawei_blanc2.avif","img/smartphones/huawei_blanc3.avif"],
-            "blue": ["img/smartphones/huawei-p30-blue.webp","img/smartphones/huawei_bleu2.avif","img/smartphones/huawei_bleu3.avif"]
+            "black": ["img/smartphones/huawei_p30_black.png","img/smartphones/huawei-p30-black2.png","img/smartphones/huawei-p30-black3.png"],
+            "white": ["img/smartphones/Huawei-P30-white.png","img/smartphones/huawei_blanc2.png","img/smartphones/huawei_blanc3.png"],
+            "blue": ["img/smartphones/huawei-p30-blue.png","img/smartphones/huawei_bleu2.png","img/smartphones/huawei_bleu3.png"]
             
         },
         {
@@ -72,9 +72,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/google-Pixel-6a_black.jpg","img/smartphones/pixel_noir2.avif","img/smartphones/pixel_noir3.avif"],
-            "white": ["img/smartphones/google_pixel_6a_white.png","img/smartphones/google-Pixel-6a_blanc2.jpg","img/smartphones/google-Pixel-6a_blanc3.jpg"],
-            "seagreen": ["img/smartphones/google-pixel-6a-sauge.jpg","img/smartphones/google-pixel-6a-sauge2.jpg","img/smartphones/google-pixel-6a-sauge3.jpg"]
+            "black": ["img/smartphones/google-Pixel-6a_black.png","img/smartphones/pixel_noir2.png","img/smartphones/pixel_noir3.png"],
+            "white": ["img/smartphones/google_pixel_6a_white.png","img/smartphones/google-Pixel-6a_blanc2.png","img/smartphones/google-Pixel-6a_blanc3.png"],
+            "seagreen": ["img/smartphones/google-pixel-6a-sauge.png","img/smartphones/google-pixel-6a-sauge2.png","img/smartphones/google-pixel-6a-sauge3.png"]
             
            
         },
@@ -92,9 +92,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/Oppo-Find-X5_black.jpg","img/smartphones/oppo_noir2.avif","img/smartphones/Oppo-Find-X5_black3.jpg"],
-            "white": ["img/smartphones/Oppo-Find-X5_white.jpg","img/smartphones/oppo_blanc2.avif","img/smartphones/oppo_blanc3.jpg"],
-            "blue": ["img/smartphones/oppo_find_x5_blue.webp","img/smartphones/Oppo-Find-X5_Bleu2.jpg","img/smartphones/Oppo-Find-X5_Bleu3.jpg"]
+            "black": ["img/smartphones/Oppo-Find-X5_black.png"],
+            "white": ["img/smartphones/Oppo-Find-X5_white.png"],
+            "blue": ["img/smartphones/oppo_find_x5_blue.png"]
             
             
         },
@@ -113,9 +113,9 @@
                 "256 Go",
                 "512 Go"
             ],
-            "black": ["img/smartphones/samsung_galaxy_s21_black.avif","img/smartphones/samsung_galaxy_s21_black2.avif","img/smartphones/samsung_galaxy_s21_black3.avif"],
-            "white": ["img/smartphones/samsung_galaxy_s21_white.avif","img/smartphones/samsung_galaxy_s21_white2.avif","img/smartphones/samsung_galaxy_s21_white3.avif"],
-            "pink": ["img/smartphones/samsung_galaxy_s21_rose.avif","img/smartphones/samsung_galaxy_s21_rose2.avif","img/smartphones/samsung_galaxy_s21_rose3.avif"]
+            "black": ["img/smartphones/samsung_galaxy_s21_black.png"],
+            "white": ["img/smartphones/samsung_galaxy_s21_white.png"],
+            "pink": ["img/smartphones/samsung_galaxy_s21_rose.png"]
         }
     ],
 
@@ -146,9 +146,9 @@
             "blue"
         ],
         "description": "Le Bose Headphones 700 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/bose_black.jpeg","img/casques/bose_noir2.jpg","img/casques/bose_noir3.avif"],
-        "white": ["img/casques/bose_white.png","img/casques/bose_blanc2.jpg","img/casques/bose_blanc3.jpg"],
-        "blue": ["img/casques/bose_blue.png","img/casques/bose_bleu2.webp","img/casques/bose_bleu3.webp"]
+        "black": ["img/casques/bose_black.jpeg"],
+        "white": ["img/casques/bose_white.png"],
+        "blue": ["img/casques/bose_blue.png"]
         
     },
     {
@@ -161,9 +161,10 @@
             "blue"
         ],
         "description": "Le JBL Live 650BTNC est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/jbl_black.webp","img/casques/jbl_noir2.jpg","img/casques/jbl_noir3.jpg"],
-        "white": ["img/casques/jbl_white.webp","img/casques/jbl_white2.webp","img/casques/jbl_white3.webp"],
-        "blue": ["img/casques/jbl_blue.webp","img/casques/jbl_bleu2.jpg","img/casques/jbl_bleu3.jpg"]
+        "black": ["img/casques/jbl_black.webp"],
+        "white": ["img/casques/jbl_white.webp"],
+        "blue": ["img/casques/jbl_blue.webp"]
+        
         
     },
     {
@@ -176,9 +177,9 @@
             "blue"
         ],
         "description": "Le Sony WH-1000XM4 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/sony_black.webp","img/casques/sony_noir2.jpg","img/casques/sony_noir3.jpg"],
-        "white": ["img/casques/sony_white.webp","img/casques/sony_blanc2.jpg","img/casques/sony_blanc3.jpg"],
-        "blue": ["img/casques/sony_blue.webp","img/casques/sony_bleu2.jpg","img/casques/sony_bleu3.jpg"]
+        "black": ["img/casques/sony_black.webp"],
+        "white": ["img/casques/sony_white.webp"],
+        "blue": ["img/casques/sony_blue.webp"]
         
     },
     {
@@ -191,9 +192,9 @@
             "blue"
         ],
         "description": "Le Beats Solo Pro est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/beats_black.jpg","img/casques/beats_noir2.webp","img/casques/beats_noir3.webp"],
-        "white": ["img/casques/bose_white.png","img/casques/beats_blanc2.webp","img/casques/beats_blanc3.webp"],
-        "blue": ["img/casques/bose_blue.png","img/casques/beats_bleu2.webp","img/casques/beats_bleu3.webp"]
+        "black": ["img/casques/beats_black.jpg"],
+        "white": ["img/casques/bose_white.png"],
+        "blue": ["img/casques/bose_blue.png"]
         
     }
     ],
@@ -225,7 +226,7 @@
                 "blue"
             ],
             "black": ["img/ordinateurs/acer_aspire_black.jfif"],
-            "white": ["img/ordinateurs/acer-aspire-white.webp"],
+            "white": ["img/ordinateurs/acer-aspire-white.png"],
             "blue": ["img/ordinateurs/acer_aspire_blue.jfif"]
             
         },
@@ -238,9 +239,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/ordinateurs/Lenovo-Ideapad-black.jpg"],
-            "white": ["img/ordinateurs/Lenovo-IdeaPad-white.jpg"],
-            "blue": ["img/ordinateurs/Lenovo-Ideapad-blue.jpg"]
+            "black": ["img/ordinateurs/Lenovo-Ideapad-black.png"],
+            "white": ["img/ordinateurs/Lenovo-IdeaPad-white.png"],
+            "blue": ["img/ordinateurs/Lenovo-Ideapad-blue.png"]
             
         },
         {
@@ -283,8 +284,8 @@
                 "black",
                 "white"
             ],
-            "black": ["img/accessoires/disque_dur_black.jpg"],
-            "white": ["img/accessoires/disque_dur_white.jpg"]
+            "black": ["img/accessoires/disque_dur_black.png"],
+            "white": ["img/accessoires/disque_dur_white.png"]
             
         },
         {
@@ -296,9 +297,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/accessoires/Dualshock-4-black.jpg"],
-            "white": ["img/accessoires/Dualshock-4-white.jpg"],
-            "blue": ["img/accessoires/Dualshock-4-blue.jpg"]
+            "black": ["img/accessoires/Dualshock-4-black.png"],
+            "white": ["img/accessoires/Dualshock-4-white.png"],
+            "blue": ["img/accessoires/Dualshock-4-blue.png"]
             
         }
 
