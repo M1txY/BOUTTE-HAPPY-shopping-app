@@ -146,7 +146,7 @@
             "blue"
         ],
         "description": "Le Bose Headphones 700 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/bose_black.jpeg"],
+        "black": ["img/casques/bose_black.png"],
         "white": ["img/casques/bose_white.png"],
         "blue": ["img/casques/bose_blue.png"]
         
@@ -161,8 +161,8 @@
             "blue"
         ],
         "description": "Le JBL Live 650BTNC est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/jbl_black.webp"],
-        "white": ["img/casques/jbl_white.webp"],
+        "black": ["img/casques/jbl_black.png"],
+        "white": ["img/casques/jbl_white.png"],
         "blue": ["img/casques/jbl_blue.webp"]
         
         
@@ -177,8 +177,8 @@
             "blue"
         ],
         "description": "Le Sony WH-1000XM4 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/sony_black.webp"],
-        "white": ["img/casques/sony_white.webp"],
+        "black": ["img/casques/sony_black.png"],
+        "white": ["img/casques/sony_white.png"],
         "blue": ["img/casques/sony_blue.webp"]
         
     },
@@ -192,7 +192,7 @@
             "blue"
         ],
         "description": "Le Beats Solo Pro est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/beats_black.jpg"],
+        "black": ["img/casques/beats_black.png"],
         "white": ["img/casques/bose_white.png"],
         "blue": ["img/casques/bose_blue.png"]
         
