@@ -92,9 +92,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/Oppo-Find-X5_black.jpg"],
-            "white": ["img/smartphones/Oppo-Find-X5_white.jpg"],
-            "blue": ["img/smartphones/oppo_find_x5_blue.webp"]
+            "black": ["img/smartphones/Oppo-Find-X5_black.jpg","img/smartphones/oppo_noir2.avif","img/smartphones/Oppo-Find-X5_black3.jpg"],
+            "white": ["img/smartphones/Oppo-Find-X5_white.jpg","img/smartphones/oppo_blanc2.avif","img/smartphones/oppo_blanc3.jpg"],
+            "blue": ["img/smartphones/oppo_find_x5_blue.webp","img/smartphones/Oppo-Find-X5_Bleu2.jpg","img/smartphones/Oppo-Find-X5_Bleu3.jpg"]
             
             
         },
@@ -113,9 +113,9 @@
                 "256 Go",
                 "512 Go"
             ],
-            "black": ["img/smartphones/samsung_galaxy_s21_black.avif"],
-            "white": ["img/smartphones/samsung_galaxy_s21_white.avif"],
-            "pink": ["img/smartphones/samsung_galaxy_s21_rose.avif"]
+            "black": ["img/smartphones/samsung_galaxy_s21_black.avif","img/smartphones/samsung_galaxy_s21_black2.avif","img/smartphones/samsung_galaxy_s21_black3.avif"],
+            "white": ["img/smartphones/samsung_galaxy_s21_white.avif","img/smartphones/samsung_galaxy_s21_white2.avif","img/smartphones/samsung_galaxy_s21_white3.avif"],
+            "pink": ["img/smartphones/samsung_galaxy_s21_rose.avif","img/smartphones/samsung_galaxy_s21_rose2.avif","img/smartphones/samsung_galaxy_s21_rose3.avif"]
         }
     ],
 
@@ -131,9 +131,9 @@
         ],
         "description": "Le design des AirPods Max est très inspiré de AKG ou de Bang & Olufsen par exemple. Ce dernier est de type circum-aural. Cela signifie que les écouteurs se posent sur votre tête en entourant les oreilles (ils ne s’appuient pas sur les oreilles)." ,
         
-        "black": ["img/casques/apple_black.png"],
-        "white": ["img/casques/apple_white.png"],
-        "blue": ["img/casques/apple_blue.png"]
+        "black": ["img/casques/apple_black.png","img/casques/capple_noir2.avif","img/casques/capple_noir3.avif"],
+        "white": ["img/casques/apple_white.png","img/casques/capple_blanc2.avif","img/casques/capple_blanc3.avif"],
+        "blue": ["img/casques/apple_blue.png","img/casques/capple_bleu2.jpg","img/casques/capple_bleu3.jpg"]
         
     },
     {
@@ -146,9 +146,9 @@
             "blue"
         ],
         "description": "Le Bose Headphones 700 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/bose_black.jpeg"],
-        "white": ["img/casques/bose_white.png"],
-        "blue": ["img/casques/bose_blue.png"]
+        "black": ["img/casques/bose_black.jpeg","img/casques/bose_noir2.jpg","img/casques/bose_noir3.avif"],
+        "white": ["img/casques/bose_white.png","img/casques/bose_blanc2.jpg","img/casques/bose_blanc3.jpg"],
+        "blue": ["img/casques/bose_blue.png","img/casques/bose_bleu2.webp","img/casques/bose_bleu3.webp"]
         
     },
     {
@@ -161,10 +161,9 @@
             "blue"
         ],
         "description": "Le JBL Live 650BTNC est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/jbl_black.webp"],
-        "white": ["img/casques/jbl_white.webp"],
-        "blue": ["img/casques/jbl_blue.webp"]
-        
+        "black": ["img/casques/jbl_black.webp","img/casques/jbl_noir2.jpg","img/casques/jbl_noir3.jpg"],
+        "white": ["img/casques/jbl_white.webp","img/casques/jbl_white2.webp","img/casques/jbl_white3.webp"],
+        "blue": ["img/casques/jbl_blue.webp","img/casques/jbl_bleu2.jpg","img/casques/jbl_bleu3.jpg"]
         
     },
     {
@@ -177,9 +176,9 @@
             "blue"
         ],
         "description": "Le Sony WH-1000XM4 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/sony_black.webp"],
-        "white": ["img/casques/sony_white.webp"],
-        "blue": ["img/casques/sony_blue.webp"]
+        "black": ["img/casques/sony_black.webp","img/casques/sony_noir2.jpg","img/casques/sony_noir3.jpg"],
+        "white": ["img/casques/sony_white.webp","img/casques/sony_blanc2.jpg","img/casques/sony_blanc3.jpg"],
+        "blue": ["img/casques/sony_blue.webp","img/casques/sony_bleu2.jpg","img/casques/sony_bleu3.jpg"]
         
     },
     {
@@ -192,9 +191,9 @@
             "blue"
         ],
         "description": "Le Beats Solo Pro est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/beats_black.jpg"],
-        "white": ["img/casques/bose_white.png"],
-        "blue": ["img/casques/bose_blue.png"]
+        "black": ["img/casques/beats_black.jpg","img/casques/beats_noir2.webp","img/casques/beats_noir3.webp"],
+        "white": ["img/casques/bose_white.png","img/casques/beats_blanc2.webp","img/casques/beats_blanc3.webp"],
+        "blue": ["img/casques/bose_blue.png","img/casques/beats_bleu2.webp","img/casques/beats_bleu3.webp"]
         
     }
     ],
