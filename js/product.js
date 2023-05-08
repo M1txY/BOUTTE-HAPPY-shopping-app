@@ -39,9 +39,7 @@ function displayProducts(url) {
                 html += getProductHtml(product);
             });
             reponstjson.innerHTML = html;
-
-            // Ajout de l'écouteur d'événements pour les choix de couleur
-            addColorChoiceListeners(); // Appelez la fonction ici
+            
         })
         .catch(function (error) {
             console.log(error);
@@ -68,9 +66,7 @@ selectbou_all.addEventListener('click', function () {
             });
         });
         reponstjson.innerHTML = html;
-
-        // Ajout de l'écouteur d'événements pour les choix de couleur
-        addColorChoiceListeners(); // Appelez la fonction ici
+        
     })
     .catch(function (error) {
         console.log(error);
@@ -132,20 +128,8 @@ function getProductHtml(product) {
 }
 
 
-function addColorChoiceListeners() {
-    const colorChoices = document.querySelectorAll('.color-choice');
-    colorChoices.forEach(function (colorChoice) {
-        colorChoice.addEventListener('click', changeProductColor);
-    }
-    );
-}
 
-function changeProductColor(e) {
-    console.log("Color choice clicked!");
-    const colorSrc = e.target.getAttribute('data-color-src');
-    const productImg = e.target.closest('.product').querySelector('.product_img');
-    productImg.src = colorSrc;
-}
+
 
 
 reponstjson.addEventListener('click', function (e) {
