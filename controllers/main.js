@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors'); // Importer le middleware cors
+const cors = require('cors');
 const app = express();
 const port = 8000;
 
@@ -10,7 +10,7 @@ var casques = data.casques;
 var ordinateurs = data.ordinateurs;
 var accessoires = data.accessoires;
 
-app.use(cors()); // Utiliser le middleware cors
+app.use(cors()); 
 
 app.get('/', (req, res) => {
   res.send(`
@@ -47,6 +47,43 @@ app.get('/accessoires', (req, res) => {
 app.get('/produits', (req, res) => {
   res.send(data);
 });
+
+app.get('/search', (req, res) => {
+  const query = req.query.q;
+  const id = parseInt(query, 10);
+  
+  const allProducts = smartphones.concat(casques, ordinateurs, accessoires);
+
+  let result;
+  if (!isNaN(id)) {
+    result = searchProduct(allProducts, id);
+  } else {
+    result = searchProduct(allProducts, query);
+  }
+
+  if (result) {
+    res.send(result);
+  } else {
+    res.status(404).send({ message: 'Produit introuvable.' });
+  }
+});
+
+
+function searchProduct(data, query) {
+  let result = null;
+  
+  if (typeof query === 'number') {
+    result = data.find(item => item.id === query);
+  }
+
+  
+  if (typeof query === 'string') {
+    result = data.find(item => item.name.toLowerCase() === query.toLowerCase());
+  }
+
+  return result;
+}
+
 
 
 

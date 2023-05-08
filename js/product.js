@@ -6,6 +6,7 @@ const selectbou_ordinateur = document.querySelector('.selectbou_ordinateur');
 const selectbou_accessoire = document.querySelector('.selectbou_accessoire');
 baseurl = "http://localhost:8000"
 
+
 //quand on arrive sur la page on clique sur le bouton all pour afficher tous les produits
 window.onload = function () {
     selectbou_all.click();
@@ -146,6 +147,7 @@ reponstjson.addEventListener('click', function (e) {
         localStorage.setItem('panier', JSON.stringify(panier));
         let paniercount = document.getElementById("paniercount");
         paniercount.textContent = panier.reduce((acc, p) => acc + p.quantity, 0);
+        
     }
 });
 
@@ -180,4 +182,6 @@ panierbtn.addEventListener('click', function () {
     panierOuvert = !panierOuvert;
 }
 );
+
+
 
