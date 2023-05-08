@@ -211,9 +211,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/ordinateurs/asus_gris.png"],
-            "white": ["img/ordinateurs/asus_white.png"],
-            "blue": ["img/ordinateurs/asus_blue.png"]
+            "black": ["img/ordinateurs/asus_gris.png","img/ordinateurs/asus_gris2.jpg","img/ordinateurs/asus_gris3.jpg"],
+            "white": ["img/ordinateurs/asus_white.png","img/ordinateurs/asus_blanc2.jpg","img/ordinateurs/asus_blanc3.jpg"],
+            "blue": ["img/ordinateurs/asus_blue.png","img/ordinateurs/asus_bleu2.jpg","img/ordinateurs/asus_bleu3.jpg"]
             
         },
         {
@@ -225,9 +225,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/ordinateurs/acer_aspire_black.jfif"],
-            "white": ["img/ordinateurs/acer-aspire-white.png"],
-            "blue": ["img/ordinateurs/acer_aspire_blue.jfif"]
+            "black": ["img/ordinateurs/acer_aspire_black.jfif","img/ordinateurs/acer_noir2.jpg","img/ordinateurs/acer_noir3.jpg"],
+            "white": ["img/ordinateurs/acer-aspire-white.png","img/ordinateurs/acer_blanc2.jpg","img/ordinateurs/acer_blanc3.jpg"],
+            "blue": ["img/ordinateurs/acer_aspire_blue.jfif","img/ordinateurs/acer_bleu1.jpg","img/ordinateurs/acer_bleu3.jpg"]
             
         },
         {
@@ -239,9 +239,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/ordinateurs/Lenovo-Ideapad-black.png"],
-            "white": ["img/ordinateurs/Lenovo-IdeaPad-white.png"],
-            "blue": ["img/ordinateurs/Lenovo-Ideapad-blue.png"]
+            "black": ["img/ordinateurs/Lenovo-Ideapad-black.png","img/ordinateurs/lenovo_noir2.avif","img/ordinateurs/lenovo_noir3.avif"],
+            "white": ["img/ordinateurs/Lenovo-IdeaPad-white.png","img/ordinateurs/Lenovo-IdeaPad-white2.jpg","img/ordinateurs/Lenovo-IdeaPad-white3.jpg"],
+            "blue": ["img/ordinateurs/Lenovo-Ideapad-blue.png","img/ordinateurs/Lenovo-IdeaPad-bleu2.jpg","img/ordinateurs/Lenovo-IdeaPad-bleu3.jpg"]
             
         },
         {
@@ -250,12 +250,10 @@
             "price": 1240,
             "colors": [
                 "black",
-                "white",
-                "blue"
+                "white"
             ],
-            "black": ["img/ordinateurs/dell_xps_black.jfif"],
-            "white": ["img/ordinateurs/dell_xps_white.jfif"],
-            "img_3": ["img/ordinateurs/dell_xps_blue.jfif"]
+            "black": ["img/ordinateurs/dell_xps_black.jfif","img/ordinateurs/dell_xps_noir2.avif","img/ordinateurs/dell_xps_noir3.avif"],
+            "white": ["img/ordinateurs/dell_xps_white.jfif","img/ordinateurs/dell_blanc2.jpg","img/ordinateurs/dell_blanc3.jpg"]
             
         },
         {
@@ -267,9 +265,9 @@
                 "white",
                 "gray"
             ],
-            "black": ["img/ordinateurs/macbook-air-black.jfif"],
-            "white": ["img/ordinateurs/macbook-air-white.jfif"],
-            "gray": ["img/ordinateurs/macbook-air-gris.jfif"]
+            "black": ["img/ordinateurs/macbook-air-black.jfif","img/ordinateurs/mcbook_noir2.jpg","img/ordinateurs/mcbook_noir3.avif"],
+            "white": ["img/ordinateurs/macbook-air-white.jfif","img/ordinateurs/mcbook_blanc2.jpg","img/ordinateurs/mcbook_blanc3.jpg"],
+            "gray": ["img/ordinateurs/macbook-air-gris.jfif","img/ordinateurs/mcbook_gris2.avif","img/ordinateurs/mcbook_noir3.avif"]
             
         }
     ],
