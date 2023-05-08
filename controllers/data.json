@@ -15,9 +15,9 @@
                 "256 Go",
                 "512 Go"
             ],
-            "black": ["img/smartphones/iphone-14-black.webp"],
-            "white": ["img/smartphones/iphone_14_white.webp"],
-            "blue": ["img/smartphones/iphone_14_blue.webp"]
+            "black": ["img/smartphones/iphone-14-black.webp","img/smartphones/iphone_black2.avif","img/smartphones/iphone_black3.avif"],
+            "white": ["img/smartphones/iphone_14_white.webp","img/smartphones/iphone_blanc2.avif","img/smartphones/iphone_blanc3.jpg"],
+            "blue": ["img/smartphones/iphone_14_blue.webp","img/smartphones/iphone_bleu2.avif","img/smartphones/iphone_bleu3.avif"]
             
         },
         {
@@ -34,11 +34,10 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/Redmi_Note_black.webp"],
-            "white": ["img/smartphones/Redmi-Note-white.jpg"],
-            "blue": ["img/smartphones/Redmi_Note_blue.webp"]
-            
-           
+            "black": ["img/smartphones/Redmi_Note_black.webp","img/smartphones/Redmi_Note_black2.webp","img/smartphones/Redmi_Note_black3.webp"],
+            "white": ["img/smartphones/Redmi-Note-white.jpg","img/smartphones/redmi_blanc2.jfif","img/smartphones/redmi_blanc3.jfif"],
+            "blue": ["img/smartphones/Redmi_Note_blue.webp","img/smartphones/redmi_bleu2.avif","img/smartphones/redmi_bleu3.avif"]
+
         },
         {
             "id": 3,
@@ -54,10 +53,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/huawei_p30_black.png"],
-            "white": ["img/smartphones/Huawei-P30-white.jpg"],
-            "blue": ["img/smartphones/huawei-p30-blue.webp"]
-            
+            "black": ["img/smartphones/huawei_p30_black.png","img/smartphones/huawei-p30-black2.webp","img/smartphones/huawei-p30-black3.webp"],
+            "white": ["img/smartphones/Huawei-P30-white.jpg","img/smartphones/huawei_blanc2.avif","img/smartphones/huawei_blanc3.avif"],
+            "blue": ["img/smartphones/huawei-p30-blue.webp","img/smartphones/huawei_bleu2.avif","img/smartphones/huawei_bleu3.avif"]
             
         },
         {
@@ -74,9 +72,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/google-Pixel-6a_black.jpg"],
-            "white": ["img/smartphones/google_pixel_6a_white.png"],
-            "seagreen": ["img/smartphones/google-pixel-6a-sauge.jpg"]
+            "black": ["img/smartphones/google-Pixel-6a_black.jpg","img/smartphones/pixel_noir2.avif","img/smartphones/pixel_noir3.avif"],
+            "white": ["img/smartphones/google_pixel_6a_white.png","img/smartphones/google-Pixel-6a_blanc2.jpg","img/smartphones/google-Pixel-6a_blanc3.jpg"],
+            "seagreen": ["img/smartphones/google-pixel-6a-sauge.jpg","img/smartphones/google-pixel-6a-sauge2.jpg","img/smartphones/google-pixel-6a-sauge3.jpg"]
             
            
         },
