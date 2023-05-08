@@ -179,7 +179,7 @@
         "description": "Le Sony WH-1000XM4 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
         "black": ["img/casques/sony_black.png"],
         "white": ["img/casques/sony_white.png"],
-        "blue": ["img/casques/sony_blue.webp"]
+        "blue": ["img/casques/sony_blue.png"]
         
     },
     {
@@ -193,8 +193,8 @@
         ],
         "description": "Le Beats Solo Pro est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
         "black": ["img/casques/beats_black.png"],
-        "white": ["img/casques/bose_white.png"],
-        "blue": ["img/casques/bose_blue.png"]
+        "white": ["img/casques/beats_white.png"],
+        "blue": ["img/casques/beats_blue.png"]
         
     }
     ],
