@@ -284,8 +284,8 @@
                 "black",
                 "white"
             ],
-            "black": ["img/accessoires/disque_dur_black.jpg"],
-            "white": ["img/accessoires/disque_dur_white.jpg"]
+            "black": ["img/accessoires/disque_dur_black.png"],
+            "white": ["img/accessoires/disque_dur_white.png"]
             
         },
         {
@@ -297,9 +297,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/accessoires/Dualshock-4-black.jpg"],
-            "white": ["img/accessoires/Dualshock-4-white.jpg"],
-            "blue": ["img/accessoires/Dualshock-4-blue.jpg"]
+            "black": ["img/accessoires/Dualshock-4-black.png"],
+            "white": ["img/accessoires/Dualshock-4-white.png"],
+            "blue": ["img/accessoires/Dualshock-4-blue.png"]
             
         }
 
