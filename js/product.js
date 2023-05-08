@@ -128,10 +128,6 @@ function getProductHtml(product) {
 }
 
 
-
-
-
-
 reponstjson.addEventListener('click', function (e) {
     if (e.target.classList.contains('addpanier')) {
         let id = e.target.getAttribute('title');
