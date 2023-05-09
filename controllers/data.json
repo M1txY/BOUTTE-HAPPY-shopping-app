@@ -15,7 +15,7 @@
                 "256 Go",
                 "512 Go"
             ],
-            "black": ["img/smartphones/iphone-14-black.png","img/smartphones/iphone_black2.png","img/smartphones/iphone_black3.png"],
+            "black": ["img/smartphones/iphone-14-black.png","img/smartphones/iphone-14-black2.png","img/smartphones/iphone_black3.png"],
             "white": ["img/smartphones/iphone_14_white.png","img/smartphones/iphone_blanc2.png","img/smartphones/iphone_blanc3.png"],
             "blue": ["img/smartphones/iphone_14_blue.png","img/smartphones/iphone_bleu2.png","img/smartphones/iphone_bleu3.png"]
             
@@ -53,7 +53,7 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/huawei_p30_black.png","img/smartphones/huawei-p30-black2.png","img/smartphones/huawei-p30-black3.png"],
+            "black": ["img/smartphones/huawei_p30_black.png","img/smartphones/huawei_p30_black2.png","img/smartphones/huawei-p30-black3.png"],
             "white": ["img/smartphones/Huawei-P30-white.png","img/smartphones/huawei_blanc2.png","img/smartphones/huawei_blanc3.png"],
             "blue": ["img/smartphones/huawei-p30-blue.png","img/smartphones/huawei_bleu2.png","img/smartphones/huawei_bleu3.png"]
             
@@ -72,7 +72,7 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/google-Pixel-6a_black.png","img/smartphones/pixel_noir2.png","img/smartphones/pixel_noir3.png"],
+            "black": ["img/smartphones/google-Pixel-6a_black.png","img/smartphones/google-Pixel-6a_black2.png","img/smartphones/pixel_noir3.png"],
             "white": ["img/smartphones/google_pixel_6a_white.png","img/smartphones/google-Pixel-6a_blanc2.png","img/smartphones/google-Pixel-6a_blanc3.png"],
             "seagreen": ["img/smartphones/google-pixel-6a-sauge.png","img/smartphones/google-pixel-6a-sauge2.png","img/smartphones/google-pixel-6a-sauge3.png"]
             
