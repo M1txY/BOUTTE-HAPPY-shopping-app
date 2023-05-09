@@ -255,7 +255,7 @@ footer>li {
     padding: 0px;
     margin: 0px;
     overflow-y: auto;
-    max-height: 330px;
+    max-height: 200px;
     scrollbar-width: thin;
     scrollbar-color: #888 #f0f0f0;
 }
