@@ -22,7 +22,9 @@ function displayProduct(product, quantity) {
   productElement.innerHTML = `
     <h3>${product.name}</h3>
     <p>${product.price} €</p>
-    <p>Quantité : ${quantity}</p>
+    <button class="quantity-btn" data-product-id="${product.id}" data-operation="decrease">-</button>
+    <p>${quantity}</p>
+    <button class="quantity-btn" data-product-id="${product.id}" data-operation="increase">+</button>
     <span class="remove">✖</span>
   `;
   productList.appendChild(productElement);
@@ -31,7 +33,18 @@ function displayProduct(product, quantity) {
     removeFromLocalStorage(product.id.toString());
     productElement.remove();
   });
+
+  productElement.querySelector('[data-operation="decrease"]').addEventListener('click', () => {
+    updateLocalStorageQuantity(product.id.toString(), quantity - 1);
+    productElement.querySelector('p').textContent = `Quantité : ${quantity - 1}`;
+  });
+
+  productElement.querySelector('[data-operation="increase"]').addEventListener('click', () => {
+    updateLocalStorageQuantity(product.id.toString(), quantity + 1);
+    productElement.querySelector('p').textContent = `Quantité : ${quantity + 1}`;
+  });
 }
+
 
 async function updatePanierDisplay() {
   productList.innerHTML = '';

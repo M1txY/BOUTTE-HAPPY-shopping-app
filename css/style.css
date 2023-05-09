@@ -286,9 +286,33 @@ footer>li {
     margin-left: 25px;
 }
 
-.productctn .product{
+.productctn .product {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
+
+.btn-clear {
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+
+.quantity-btn {
+    font-size: 30px;
+}
+
+.leftmenucolumn {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacement entre les éléments du menu */
+    top: 500px;
+    left: 0;
+
+}
+

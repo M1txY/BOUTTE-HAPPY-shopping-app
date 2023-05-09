@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Au survol de .product, modifie l'image à la place de .product_img img
+   
     document.body.addEventListener('mouseover', function (event) {
-        // Modifie le src de l'image en ajoutant un 2 à la fin
+       
         if (event.target.matches('.product_img img')) {
             const productElement = event.target.closest('.product');
             const imagePreview = productElement.querySelector('.product_img img');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     document.body.addEventListener('mouseout', function (event) {
-        // Modifie le src de l'image en enlevant le 2 à la fin
+       
         if (event.target.matches('.product_img img')) {
             const productElement = event.target.closest('.product');
             const imagePreview = productElement.querySelector('.product_img img');
