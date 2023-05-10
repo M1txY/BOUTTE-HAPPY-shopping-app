@@ -35,7 +35,7 @@
                 "256 Go"
             ],
             "black": ["img/smartphones/Redmi_Note_black.png","img/smartphones/Redmi_Note_black2.png","img/smartphones/Redmi_Note_black3.png"],
-            "white": ["img/smartphones/Redmi-Note-white.png","img/smartphones/redmi_blanc2.jfif","img/smartphones/redmi_blanc3.jfif"],
+            "white": ["img/smartphones/Redmi-Note-white.png","img/smartphones/redmi_blanc2.png","img/smartphones/redmi_blanc3.png"],
             "blue": ["img/smartphones/Redmi_Note_blue.png","img/smartphones/redmi_bleu2.png","img/smartphones/redmi_bleu3.png"]
 
         },
@@ -131,8 +131,8 @@
         ],
         "description": "Le design des AirPods Max est très inspiré de AKG ou de Bang & Olufsen par exemple. Ce dernier est de type circum-aural. Cela signifie que les écouteurs se posent sur votre tête en entourant les oreilles (ils ne s’appuient pas sur les oreilles)." ,
         
-        "black": ["img/casques/apple_black.png","img/casques/capple_noir2.avif","img/casques/capple_noir3.avif"],
-        "white": ["img/casques/apple_white.png","img/casques/capple_blanc2.avif","img/casques/capple_blanc3.avif"],
+        "black": ["img/casques/apple_black.png","img/casques/capple_noir2.png","img/casques/capple_noir3.png"],
+        "white": ["img/casques/apple_white.png","img/casques/capple_blanc2.png","img/casques/capple_blanc3.png"],
         "blue": ["img/casques/apple_blue.png","img/casques/capple_bleu2.jpg","img/casques/capple_bleu3.jpg"]
         
     },
@@ -163,7 +163,7 @@
         "description": "Le JBL Live 650BTNC est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
         "black": ["img/casques/jbl_black.png"],
         "white": ["img/casques/jbl_white.png"],
-        "blue": ["img/casques/jbl_blue.webp"]
+        "blue": ["img/casques/jbl_blue.png"]
         
         
     },
@@ -225,9 +225,9 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/ordinateurs/acer_aspire_black.jfif","img/ordinateurs/acer_noir2.jpg","img/ordinateurs/acer_noir3.jpg"],
+            "black": ["img/ordinateurs/acer_aspire_black.png","img/ordinateurs/acer_noir2.jpg","img/ordinateurs/acer_noir3.jpg"],
             "white": ["img/ordinateurs/acer-aspire-white.png","img/ordinateurs/acer_blanc2.jpg","img/ordinateurs/acer_blanc3.jpg"],
-            "blue": ["img/ordinateurs/acer_aspire_blue.jfif","img/ordinateurs/acer_bleu1.jpg","img/ordinateurs/acer_bleu3.jpg"]
+            "blue": ["img/ordinateurs/acer_aspire_blue.png","img/ordinateurs/acer_bleu1.jpg","img/ordinateurs/acer_bleu3.jpg"]
             
         },
         {
@@ -239,7 +239,7 @@
                 "white",
                 "blue"
             ],
-            "black": ["img/ordinateurs/Lenovo-Ideapad-black.png","img/ordinateurs/lenovo_noir2.avif","img/ordinateurs/lenovo_noir3.avif"],
+            "black": ["img/ordinateurs/Lenovo-Ideapad-black.png","img/ordinateurs/lenovo_noir2.png","img/ordinateurs/lenovo_noir3.png"],
             "white": ["img/ordinateurs/Lenovo-IdeaPad-white.png","img/ordinateurs/Lenovo-IdeaPad-white2.jpg","img/ordinateurs/Lenovo-IdeaPad-white3.jpg"],
             "blue": ["img/ordinateurs/Lenovo-Ideapad-blue.png","img/ordinateurs/Lenovo-IdeaPad-bleu2.jpg","img/ordinateurs/Lenovo-IdeaPad-bleu3.jpg"]
             
@@ -252,8 +252,8 @@
                 "black",
                 "white"
             ],
-            "black": ["img/ordinateurs/dell_xps_black.jfif","img/ordinateurs/dell_xps_noir2.avif","img/ordinateurs/dell_xps_noir3.avif"],
-            "white": ["img/ordinateurs/dell_xps_white.jfif","img/ordinateurs/dell_blanc2.jpg","img/ordinateurs/dell_blanc3.jpg"]
+            "black": ["img/ordinateurs/dell_xps_black.png","img/ordinateurs/dell_xps_noir2.png","img/ordinateurs/dell_xps_noir3.png"],
+            "white": ["img/ordinateurs/dell_xps_white.png","img/ordinateurs/dell_blanc2.jpg","img/ordinateurs/dell_blanc3.jpg"]
             
         },
         {
@@ -265,9 +265,9 @@
                 "white",
                 "gray"
             ],
-            "black": ["img/ordinateurs/macbook-air-black.jfif","img/ordinateurs/mcbook_noir2.jpg","img/ordinateurs/mcbook_noir3.avif"],
-            "white": ["img/ordinateurs/macbook-air-white.jfif","img/ordinateurs/mcbook_blanc2.jpg","img/ordinateurs/mcbook_blanc3.jpg"],
-            "gray": ["img/ordinateurs/macbook-air-gris.jfif","img/ordinateurs/mcbook_gris2.avif","img/ordinateurs/mcbook_noir3.avif"]
+            "black": ["img/ordinateurs/macbook-air-black.png","img/ordinateurs/mcbook_noir2.jpg","img/ordinateurs/mcbook_noir3.png"],
+            "white": ["img/ordinateurs/macbook-air-white.png","img/ordinateurs/mcbook_blanc2.jpg","img/ordinateurs/mcbook_blanc3.jpg"],
+            "gray": ["img/ordinateurs/macbook-air-gris.png","img/ordinateurs/mcbook_gris2.png","img/ordinateurs/mcbook_noir3.png"]
             
         }
     ],
@@ -297,7 +297,7 @@
             ],
             "black": ["img/accessoires/Dualshock-4-black.png","img/accessoires/dualshock_noir2.jpg","img/accessoires/dualshock_noir3.jpg"],
             "white": ["img/accessoires/Dualshock-4-white.png","img/accessoires/dualshock_wht2.jpg","img/accessoires/dualshock_wht3.jpg"],
-            "blue": ["img/accessoires/Dualshock-4-blue.png","img/accessoires/manette_bleu2.avif","img/accessoires/manette_bleu3.avif"]
+            "blue": ["img/accessoires/Dualshock-4-blue.png","img/accessoires/manette_bleu2.png","img/accessoires/manette_bleu3.png"]
             
         }
 
