@@ -351,6 +351,14 @@ footer>li {
     
 }
 
+.prod_ctn .validerbtn {
+    margin: 0px;
+    position: absolute;
+    bottom: 150px;
+    right: 40px;
+
+}
+
 @media screen and (max-width: 768px) {
     .ctn_detail{
         flex-direction: column;

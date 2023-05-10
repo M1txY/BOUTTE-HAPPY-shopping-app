@@ -59,8 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             }
             );
-
-
         })
 
     const imgdetail = document.querySelector('.img_ctn-image');

@@ -1,5 +1,7 @@
 const express = require('express');
 const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
 const app = express();
 const port = 8000;
 
@@ -10,7 +12,17 @@ var casques = data.casques;
 var ordinateurs = data.ordinateurs;
 var accessoires = data.accessoires;
 
-app.use(cors()); 
+
+app.use(helmet());
+app.use(cors());
+
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, 
+  max: 100 
+});
+
+
 
 app.get('/', (req, res) => {
   res.send(`
@@ -23,26 +35,21 @@ app.get('/', (req, res) => {
     `);
 })
 
-
 app.get('/smartphones', (req, res) => {
   res.send(smartphones);
 });
-
 
 app.get('/casques', (req, res) => {
   res.send(casques);
 });
 
-
 app.get('/ordinateurs', (req, res) => {
   res.send(ordinateurs);
 });
 
-
 app.get('/accessoires', (req, res) => {
   res.send(accessoires);
 });
-
 
 app.get('/produits', (req, res) => {
   res.send(data);
@@ -68,7 +75,6 @@ app.get('/search', (req, res) => {
   }
 });
 
-
 function searchProduct(data, query) {
   let result = null;
   
@@ -76,16 +82,12 @@ function searchProduct(data, query) {
     result = data.find(item => item.id === query);
   }
 
-  
   if (typeof query === 'string') {
     result = data.find(item => item.name.toLowerCase() === query.toLowerCase());
   }
 
   return result;
 }
-
-
-
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

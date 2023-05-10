@@ -6,38 +6,39 @@ const selectbou_ordinateur = document.querySelector('.selectbou_ordinateur');
 const selectbou_accessoire = document.querySelector('.selectbou_accessoire');
 baseurl = "http://localhost:8000"
 
-document.addEventListener('DOMContentLoaded', function () {
-    const url = window.location.href;
-    console.log(url);
-    
-    if (url.includes("index.html")) {
-        window.onload = function () {
-            selectbou_all.click();
-        }
 
-        selectbou_casque.addEventListener('click', function () {
-            displayProducts(baseurl + "/casques");
-        });
-        
-        selectbou_telephone.addEventListener('click', function () {
-            displayProducts(baseurl + "/smartphones");
-        });
-        
-        selectbou_ordinateur.addEventListener('click', function () {
-            displayProducts(baseurl + "/ordinateurs");
-        });
-        
-        selectbou_accessoire.addEventListener('click', function () {
-            displayProducts(baseurl + "/accessoires");
-        });
+window.onload = function () {
+    selectbou_all.click();
+}
 
-        
-    
-
-    }
-
-    
+selectbou_casque.addEventListener('click', function () {
+    displayProducts(baseurl + "/casques");
 });
+
+selectbou_telephone.addEventListener('click', function () {
+    displayProducts(baseurl + "/smartphones");
+});
+
+selectbou_ordinateur.addEventListener('click', function () {
+    displayProducts(baseurl + "/ordinateurs");
+});
+
+selectbou_accessoire.addEventListener('click', function () {
+    displayProducts(baseurl + "/accessoires");
+});
+
+selectbou_all.addEventListener('click', function () {
+    fetchAllProducts().then(function (products) {
+        let html = "";
+        products.forEach(function (data) {
+            data.forEach(function (product) {
+                html += getProductHtml(product);
+            });
+        });
+        reponstjson.innerHTML = html;
+    });
+});
+
 
 
 
