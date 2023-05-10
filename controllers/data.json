@@ -178,8 +178,8 @@
         ],
         "description": "Le Sony WH-1000XM4 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
         "black": ["img/casques/sony_black.png","img/casques/sony_black2.png","img/casques/sony_black3.png"],
-        "white": ["img/casques/sony_white.png","img/casques/sony_white2.png"],
-        "blue": ["img/casques/sony_blue.png"]
+        "white": ["img/casques/sony_white.png","img/casques/sony_white2.png","img/casques/sony_white3.png"],
+        "blue": ["img/casques/sony_blue.png","img/casques/sony_blue2.png","img/casques/sony_blue3.png"]
         
     },
     {
