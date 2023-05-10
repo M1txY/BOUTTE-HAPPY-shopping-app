@@ -15,3 +15,4 @@ Ce projet a été réalisé par deux personnes : Joel et Matthieu. Voici les tâ
 - Conception du footer de la page web.
 - Ajout de fonctionnalités à la base de données.
 - Recherche et intégration d'images dans le projet.
+- Animation du panier et la pastille du panier.
