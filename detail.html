@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>shellfish</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="shellfish est un site de vente en ligne de produits high-tech">
+    <meta name="keywords" content="shellfish, vente, high-tech, casque, téléphone, ordinateur, tablette, accessoire">
+    <meta name="author" content="Mtx1">
 </head>
+
 <body>
+    <header>
+        <img id="logo" src="img/shellfish.png" alt="logo">
+        <button class="panierbtn">
+            <img class="changeicon" src="img/sac-de-courses.png" alt="panier">
+            <span id="paniercount"></span>
+        </button>
+
+    </header>
+    <div class="panierctn">
+        <h2>Votre panier :</h2>
+        <div class="productctn">
+
+        </div>
+        <div class="totalctn">
+            <h3>Total :</h3>
+            <span id="total"></span>
+            <button class="validerbtn">Acheter</button>
+            <button class="btn-clear">✖</button>
+        </div>
+
+
+
+    </div>
+
+    <div class="ctn_detail">
+
+        <div id="img_ctn">
+            <button id="img_ctn-prev">&lt;</button>
+            <img class="img_ctn-image" src="">
+            <button id="img_ctn-next">&gt;</button>
+        </div>
+
+        <div class="prod_ctn">
+            <h2 class="name"></h2>
+            <p class="price"></p>
+            <p class="description"></p>
+            <div class="color"></div>
+        </div>
+
+    </div>
+
+
+    <script src="js/detail.js"></script>
+    <script src="js/panier.js"></script>
+    <script src="js/product.js"></script>
     
+
 </body>
+
 </html>

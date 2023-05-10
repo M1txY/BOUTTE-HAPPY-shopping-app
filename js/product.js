@@ -6,26 +6,41 @@ const selectbou_ordinateur = document.querySelector('.selectbou_ordinateur');
 const selectbou_accessoire = document.querySelector('.selectbou_accessoire');
 baseurl = "http://localhost:8000"
 
+document.addEventListener('DOMContentLoaded', function () {
+    const url = window.location.href;
+    console.log(url);
+    
+    if (url.includes("index.html")) {
+        window.onload = function () {
+            selectbou_all.click();
+        }
 
-window.onload = function () {
-    selectbou_all.click();
-}
+        selectbou_casque.addEventListener('click', function () {
+            displayProducts(baseurl + "/casques");
+        });
+        
+        selectbou_telephone.addEventListener('click', function () {
+            displayProducts(baseurl + "/smartphones");
+        });
+        
+        selectbou_ordinateur.addEventListener('click', function () {
+            displayProducts(baseurl + "/ordinateurs");
+        });
+        
+        selectbou_accessoire.addEventListener('click', function () {
+            displayProducts(baseurl + "/accessoires");
+        });
 
-selectbou_casque.addEventListener('click', function () {
-    displayProducts(baseurl + "/casques");
+        
+    
+
+    }
+
+    
 });
 
-selectbou_telephone.addEventListener('click', function () {
-    displayProducts(baseurl + "/smartphones");
-});
 
-selectbou_ordinateur.addEventListener('click', function () {
-    displayProducts(baseurl + "/ordinateurs");
-});
 
-selectbou_accessoire.addEventListener('click', function () {
-    displayProducts(baseurl + "/accessoires");
-});
 
 function displayProducts(url) {
     fetch(url)
@@ -45,35 +60,7 @@ function displayProducts(url) {
         });
 }
 
-selectbou_all.addEventListener('click', function () {
-    Promise.all([
-        fetch(baseurl + "/smartphones"),
-        fetch(baseurl + "/casques"),
-        fetch(baseurl + "/ordinateurs"),
-        fetch(baseurl + "/accessoires")
-    ])
-        .then(function (responses) {
-            return Promise.all(responses.map(function (response) {
-                return response.json();
-            }));
-        })
-        .then(function (products) {
-            let html = "";
-            products.forEach(function (data) {
-                data.forEach(function (product) {
-                    html += getProductHtml(product);
-                });
-            });
-            reponstjson.innerHTML = html;
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-});
 
-selectbou_all.addEventListener('click', function () {
-    fetchAllProducts();
-});
 
 function displayFilteredProducts(couleur) {
     fetchAllProducts().then(function (products) {
@@ -136,6 +123,7 @@ function getProductHtml(product) {
                     ${colorsHtml}
                 </div>
                 <button class="addpanier" title="${product.id}">Ajouter au panier</button>
+                <a href="detail.html?id=${product.id}">Voir le produit</a>
             </div>
         </div>
     `;
