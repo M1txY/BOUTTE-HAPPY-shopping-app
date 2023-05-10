@@ -131,9 +131,9 @@
         ],
         "description": "Le design des AirPods Max est très inspiré de AKG ou de Bang & Olufsen par exemple. Ce dernier est de type circum-aural. Cela signifie que les écouteurs se posent sur votre tête en entourant les oreilles (ils ne s’appuient pas sur les oreilles)." ,
         
-        "black": ["img/casques/apple_black.png","img/casques/capple_noir2.png","img/casques/capple_noir3.png"],
-        "white": ["img/casques/apple_white.png","img/casques/capple_blanc2.png","img/casques/capple_blanc3.png"],
-        "blue": ["img/casques/apple_blue.png","img/casques/capple_bleu2.jpg","img/casques/capple_bleu3.jpg"]
+        "black": ["img/casques/apple_black.png","img/casques/apple_black2.png","img/casques/apple_black3.png"],
+        "white": ["img/casques/apple_white.png","img/casques/apple_white2.png","img/casques/apple_white3.png"],
+        "blue": ["img/casques/apple_blue.png","img/casques/apple_blue2.png","img/casques/apple_blue3.png"]
         
     },
     {
@@ -146,9 +146,9 @@
             "blue"
         ],
         "description": "Le Bose Headphones 700 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/bose_black.png", "img/casques/bose_black2.png"],
-        "white": ["img/casques/bose_white.png" , "img/casques/bose_white2.png"],
-        "blue": ["img/casques/bose_blue.png"]
+        "black": ["img/casques/bose_black.png", "img/casques/bose_black2.png","img/casques/bose_black3.png"],
+        "white": ["img/casques/bose_white.png" , "img/casques/bose_white2.png","img/casques/bose_white3.png"],
+        "blue": ["img/casques/bose_blue.png","img/casques/bose_blue2.png","img/casques/bose_blue3.png"]
         
     },
     {
