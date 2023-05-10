@@ -33,9 +33,11 @@
             <h3>Total :</h3>
             <span id="total"></span>
             <button class="validerbtn">Acheter</button>
+            <button class="btn-clear">✖</button>
         </div>
-        
-        
+
+
+
     </div>
     <nav>
         <ul>
@@ -46,7 +48,24 @@
             <li><button class="selectbou_accessoire" title="accessoire">Accessoire</button></li>
         </ul>
 
+
+
     </nav>
+
+    <div class="leftmenucolumn">
+        <select class="select_couleur">
+            <option value="all">Toutes les couleurs</option>
+            <option value="blue">Bleu</option>
+            <option value="seagreen">Vert</option>
+            <option value="pink">Rose</option>
+            <option value="black">Noir</option>
+        </select>
+        <button class="btn-tri-croissant">&#x2191;</button>
+        <button class="btn-tri-decroissant">&#x2193;</button>
+
+    </div>
+
+
 
     <div class="reponstjson">
     </div>
@@ -67,7 +86,7 @@
                     <li><button class="selectbou_ordinateur" title="ordinateur">Ordinateur</button></li>
                     <li><button class="selectbou_accessoire" title="accessoire">Accessoire</button></li>
                 </ul>
-                
+
             </div>
             <div class="l3">
                 <h3>Support client</h3>
@@ -88,14 +107,15 @@
         </ul>
 
     </footer>
-    
-    
 
-    
+
+
+
     <script src="js/product.js"></script> <!-- script pour l'affichage des produits -->
     <script src="js/colorchange.js"></script> <!-- script pour le changement de couleur des produit -->
     <script src="js/panier.js"></script> <!-- script pour l'affichage du panier -->
-   
+    <script src="js/hover.js"></script>
+
 </body>
 
 </html>

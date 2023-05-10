@@ -7,11 +7,9 @@ const selectbou_accessoire = document.querySelector('.selectbou_accessoire');
 baseurl = "http://localhost:8000"
 
 
-//quand on arrive sur la page on clique sur le bouton all pour afficher tous les produits
 window.onload = function () {
     selectbou_all.click();
 }
-
 
 selectbou_casque.addEventListener('click', function () {
     displayProducts(baseurl + "/casques");
@@ -40,7 +38,7 @@ function displayProducts(url) {
                 html += getProductHtml(product);
             });
             reponstjson.innerHTML = html;
-            
+
         })
         .catch(function (error) {
             console.log(error);
@@ -54,52 +52,67 @@ selectbou_all.addEventListener('click', function () {
         fetch(baseurl + "/ordinateurs"),
         fetch(baseurl + "/accessoires")
     ])
-    .then(function (responses) {
-        return Promise.all(responses.map(function (response) {
-            return response.json();
-        }));
-    })
-    .then(function (products) {
+        .then(function (responses) {
+            return Promise.all(responses.map(function (response) {
+                return response.json();
+            }));
+        })
+        .then(function (products) {
+            let html = "";
+            products.forEach(function (data) {
+                data.forEach(function (product) {
+                    html += getProductHtml(product);
+                });
+            });
+            reponstjson.innerHTML = html;
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+});
+
+selectbou_all.addEventListener('click', function () {
+    fetchAllProducts();
+});
+
+function displayFilteredProducts(couleur) {
+    fetchAllProducts().then(function (products) {
         let html = "";
         products.forEach(function (data) {
             data.forEach(function (product) {
-                html += getProductHtml(product);
+                if (couleur === 'all' || product.colors.includes(couleur)) {
+                    html += getProductHtml(product);
+                }
             });
         });
         reponstjson.innerHTML = html;
-        
-    })
-    .catch(function (error) {
-        console.log(error);
     });
+}
+
+const select_couleur = document.querySelector('.select_couleur');
+
+select_couleur.addEventListener('change', function () {
+    const couleur = select_couleur.value;
+    displayFilteredProducts(couleur);
 });
 
 
-selectbou_all.addEventListener('click', function () {
-    Promise.all([
+function fetchAllProducts() {
+    return Promise.all([
         fetch(baseurl + "/smartphones"),
         fetch(baseurl + "/casques"),
         fetch(baseurl + "/ordinateurs"),
-        fetch(baseurl + "/accessoires")
+        fetch(baseurl + "/accessoires"),
+        // Ajoutez d'autres catégories si nécessaire
     ])
-    .then(function (responses) {
-        return Promise.all(responses.map(function (response) {
-            return response.json();
-        }));
-    })
-    .then(function (products) {
-        let html = "";
-        products.forEach(function (data) {
-            data.forEach(function (product) {
-                html += getProductHtml(product);
-            });
+        .then(function (responses) {
+            return Promise.all(responses.map(function (response) {
+                return response.json();
+            }));
         });
-        reponstjson.innerHTML = html;
-    })
-    .catch(function (error) {
-        console.log(error);
-    });
-});
+}
+
+
 
 function getProductHtml(product) {
     let colorsHtml = "";
@@ -141,26 +154,31 @@ reponstjson.addEventListener('click', function (e) {
         let productIndex = panier.findIndex(p => p.id === id);
         if (productIndex === -1) {
             panier.push({ id: id, quantity: 1 });
+
         } else {
             panier[productIndex].quantity++;
+
+
         }
         localStorage.setItem('panier', JSON.stringify(panier));
         let paniercount = document.getElementById("paniercount");
         paniercount.textContent = panier.reduce((acc, p) => acc + p.quantity, 0);
-        
+        updatePanierDisplay();
     }
 });
 
 
-let panier = localStorage.getItem('panier');
-let paniercount = document.getElementById("paniercount");
+updatePanierDisplay();
 
-if (panier == null || JSON.parse(panier).length == 0) {
-  paniercount.style.display = 'none';
-} else {
-  paniercount.textContent = JSON.parse(panier).reduce((acc, p) => acc + p.quantity, 0);
-  
-  paniercount.style.display = 'flex';
+function updatePanierDisplay() {
+    let panier = localStorage.getItem('panier');
+    let paniercount = document.getElementById("paniercount");
+    if (panier == null || JSON.parse(panier).length == 0) {
+        paniercount.style.display = 'none';
+    } else {
+        paniercount.textContent = JSON.parse(panier).reduce((acc, p) => acc + p.quantity, 0);
+        paniercount.style.display = 'flex';
+    }
 }
 
 
@@ -182,6 +200,59 @@ panierbtn.addEventListener('click', function () {
     panierOuvert = !panierOuvert;
 }
 );
+
+function viderPanier() {
+    panierItems = [];
+    localStorage.setItem('panier', JSON.stringify(panierItems));
+    updatePanierDisplay();
+}
+
+
+const btnclear = document.querySelector('.btn-clear');
+btnclear.addEventListener('click', function () {
+    viderPanier();
+}
+);
+
+const btnTriCroissant = document.querySelector('.btn-tri-croissant');
+const btnTriDecroissant = document.querySelector('.btn-tri-decroissant');
+
+
+btnTriCroissant.addEventListener('click', function () {
+    trierProduits('croissant');
+});
+
+btnTriDecroissant.addEventListener('click', function () {
+    trierProduits('decroissant');
+});
+
+function trierProduits(ordre) {
+    fetchAllProducts().then(function (products) {
+        let allProducts = [];
+        products.forEach(function (data) {
+            data.forEach(function (product) {
+                allProducts.push(product);
+            });
+        });
+        if (ordre === 'croissant') {
+            allProducts.sort(function (a, b) {
+                return a.price - b.price;
+            });
+        } else if (ordre === 'decroissant') {
+            allProducts.sort(function (a, b) {
+                return b.price - a.price;
+            });
+        }
+        let html = "";
+        allProducts.forEach(function (product) {
+            html += getProductHtml(product);
+        });
+        reponstjson.innerHTML = html;
+    });
+}
+
+
+
 
 
 

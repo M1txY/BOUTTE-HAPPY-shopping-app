@@ -15,9 +15,9 @@
                 "256 Go",
                 "512 Go"
             ],
-            "black": ["img/smartphones/iphone-14-black.png","img/smartphones/iphone_black2.png","img/smartphones/iphone_black3.png"],
+            "black": ["img/smartphones/iphone-14-black.png","img/smartphones/iphone-14-black2.png","img/smartphones/iphone_black3.png"],
             "white": ["img/smartphones/iphone_14_white.png","img/smartphones/iphone_blanc2.png","img/smartphones/iphone_blanc3.png"],
-            "blue": ["img/smartphones/iphone_14_blue.png","img/smartphones/iphone_bleu2.png","img/smartphones/iphone_bleu3.png"]
+            "blue": ["img/smartphones/iphone_14_blue.png","img/smartphones/iphone_14_bleu2.png","img/smartphones/iphone_14_bleu3.png"]
             
         },
         {
@@ -53,9 +53,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/huawei_p30_black.png","img/smartphones/huawei-p30-black2.png","img/smartphones/huawei-p30-black3.png"],
-            "white": ["img/smartphones/Huawei-P30-white.png","img/smartphones/huawei_blanc2.png","img/smartphones/huawei_blanc3.png"],
-            "blue": ["img/smartphones/huawei-p30-blue.png","img/smartphones/huawei_bleu2.png","img/smartphones/huawei_bleu3.png"]
+            "black": ["img/smartphones/huawei_p30_black.png","img/smartphones/huawei_p30_black2.png","img/smartphones/huawei-p30-black3.png"],
+            "white": ["img/smartphones/Huawei-P30-white.png","img/smartphones/Huawei-P30-white2.png","img/smartphones/Huawei-P30-white3.png"],
+            "blue": ["img/smartphones/huawei-p30-blue.png","img/smartphones/huawei-p30-blue2.png","img/smartphones/huawei_bleu3.png"]
             
         },
         {
@@ -72,8 +72,8 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/google-Pixel-6a_black.png","img/smartphones/pixel_noir2.png","img/smartphones/pixel_noir3.png"],
-            "white": ["img/smartphones/google_pixel_6a_white.png","img/smartphones/google-Pixel-6a_blanc2.png","img/smartphones/google-Pixel-6a_blanc3.png"],
+            "black": ["img/smartphones/google-Pixel-6a_black.png","img/smartphones/google-Pixel-6a_black2.png","img/smartphones/google-Pixel-6a_black3.png"],
+            "white": ["img/smartphones/google_pixel_6a_white.png","img/smartphones/google-Pixel-6a_white2.png","img/smartphones/google-Pixel-6a_white3.png"],
             "seagreen": ["img/smartphones/google-pixel-6a-sauge.png","img/smartphones/google-pixel-6a-sauge2.png","img/smartphones/google-pixel-6a-sauge3.png"]
             
            
@@ -92,9 +92,9 @@
                 "128 Go",
                 "256 Go"
             ],
-            "black": ["img/smartphones/Oppo-Find-X5_black.png"],
-            "white": ["img/smartphones/Oppo-Find-X5_white.png"],
-            "blue": ["img/smartphones/oppo_find_x5_blue.png"]
+            "black": ["img/smartphones/Oppo-Find-X5_black.png" , "img/smartphones/Oppo-Find-X5_black2.png" , "img/smartphones/Oppo-Find-X5_black3.png"],
+            "white": ["img/smartphones/Oppo-Find-X5_white.png" , "img/smartphones/Oppo-Find-X5_white2.png" , "img/smartphones/Oppo-Find-X5_white3.png"],
+            "blue": ["img/smartphones/oppo_find_x5_blue.png" , "img/smartphones/oppo_find_x5_blue2.png" , "img/smartphones/oppo_find_x5_blue3.png"]
             
             
         },
@@ -113,9 +113,9 @@
                 "256 Go",
                 "512 Go"
             ],
-            "black": ["img/smartphones/samsung_galaxy_s21_black.png"],
-            "white": ["img/smartphones/samsung_galaxy_s21_white.png"],
-            "pink": ["img/smartphones/samsung_galaxy_s21_rose.png"]
+            "black": ["img/smartphones/samsung_galaxy_s21_black.png" , "img/smartphones/samsung_galaxy_s21_black2.png" , "img/smartphones/samsung_galaxy_s21_black3.png"],
+            "white": ["img/smartphones/samsung_galaxy_s21_white.png" , "img/smartphones/samsung_galaxy_s21_white2.png" , "img/smartphones/samsung_galaxy_s21_white3.png"],
+            "pink": ["img/smartphones/samsung_galaxy_s21_rose.png" , "img/smartphones/samsung_galaxy_s21_rose2.png" , "img/smartphones/samsung_galaxy_s21_rose3.png"]
         }
     ],
 
@@ -146,8 +146,8 @@
             "blue"
         ],
         "description": "Le Bose Headphones 700 est un casque Bluetooth à réduction de bruit active. Il est équipé de 8 microphones pour une meilleure captation de la voix lors des appels téléphoniques. Il est également possible de régler le niveau de réduction de bruit active sur 11 niveaux différents.",
-        "black": ["img/casques/bose_black.png"],
-        "white": ["img/casques/bose_white.png"],
+        "black": ["img/casques/bose_black.png", "img/casques/bose_black2.png"],
+        "white": ["img/casques/bose_white.png" , "img/casques/bose_white2.png"],
         "blue": ["img/casques/bose_blue.png"]
         
     },
